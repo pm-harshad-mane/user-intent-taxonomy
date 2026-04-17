@@ -1,0 +1,58 @@
+Unique ID	Parent ID	Name	Tier 1	Tier 2	Tier 3	Description	Typical Effect
+IM-0000		Intent Modifier Taxonomy	Intent Modifier Taxonomy			Root node	
+IM-1000	IM-0000	Deal Seeking	Deal Seeking			User is motivated by discounts or value	Increases lower-funnel weight
+IM-1100	IM-1000	Price Sensitivity	Deal Seeking	Price Sensitivity		User is sensitive to price	Increases value-seeking signal
+IM-1110	IM-1100	Coupon Focus	Deal Seeking	Price Sensitivity	Coupon Focus	User is seeking coupons or promos	Boosts transaction readiness
+IM-1120	IM-1100	Price Drop Focus	Deal Seeking	Price Sensitivity	Price Drop Focus	User is waiting for lower pricing	May delay conversion timing
+IM-1200	IM-1000	Value Optimization	Deal Seeking	Value Optimization		User is looking for best value	Increases comparison relevance
+IM-1210	IM-1200	Bundle Focus	Deal Seeking	Value Optimization	Bundle Focus	User is interested in bundled value	Boosts purchase efficiency
+IM-1220	IM-1200	Sale Event Focus	Deal Seeking	Value Optimization	Sale Event Focus	User is focused on sale events	Boosts short-term action
+IM-2000	IM-0000	Local	Local			User intent is tied to local presence	Increases store-visit relevance
+IM-2100	IM-2000	Location Specific	Local	Location Specific		User is focused on nearby options	Increases local actionability
+IM-2110	IM-2100	Near Me	Local	Location Specific	Near Me	User is explicitly searching nearby	Strong lower-funnel signal
+IM-2120	IM-2100	City or Area Specific	Local	Location Specific	City or Area Specific	User specifies a city or area	Improves geo precision
+IM-2200	IM-2000	Visit Readiness	Local	Visit Readiness		User likely plans a local visit	Increases visit propensity
+IM-2210	IM-2200	Hours and Directions	Local	Visit Readiness	Hours and Directions	User is checking location details	Strong store-visit signal
+IM-2220	IM-2200	Availability Nearby	Local	Visit Readiness	Availability Nearby	User is checking local availability	Strong local purchase signal
+IM-3000	IM-0000	Brand Focused	Brand Focused			User is focused on a specific brand	Increases brand alignment value
+IM-3100	IM-3000	Single Brand	Brand Focused	Single Brand		User is focused on one brand	Useful for brand-specific packaging
+IM-3110	IM-3100	Brand Research	Brand Focused	Single Brand	Brand Research	User is learning about a brand	Boosts branded research
+IM-3120	IM-3100	Brand Purchase Consideration	Brand Focused	Single Brand	Brand Purchase Consideration	User is considering brand purchase	Boosts brand lower funnel
+IM-3200	IM-3000	Brand Switching	Brand Focused	Brand Switching		User is comparing brands	Useful for conquesting
+IM-3210	IM-3200	Switch From Brand	Brand Focused	Brand Switching	Switch From Brand	User may leave a brand	Competitive opportunity
+IM-3220	IM-3200	Switch To Brand	Brand Focused	Brand Switching	Switch To Brand	User may adopt a brand	Competitive opportunity
+IM-4000	IM-0000	Vendor Focused	Vendor Focused			User is focused on provider or seller choice	Boosts lead or provider comparison value
+IM-4100	IM-4000	Provider Selection	Vendor Focused	Provider Selection		User is selecting among providers	Useful in lead-gen categories
+IM-4110	IM-4100	Seller Discovery	Vendor Focused	Provider Selection	Seller Discovery	User is identifying who can provide	Improve lead-gen readiness
+IM-4120	IM-4100	Marketplace Focus	Vendor Focused	Provider Selection	Marketplace Focus	User is selecting marketplace or seller	Improves commerce activation
+IM-4200	IM-4000	Provider Evaluation	Vendor Focused	Provider Evaluation		User is evaluating provider trust or fit	Useful in service verticals
+IM-4210	IM-4200	Reputation Focus	Vendor Focused	Provider Evaluation	Reputation Focus	User is checking provider credibility	Boosts validation signal
+IM-4220	IM-4200	Serviceability Focus	Vendor Focused	Provider Evaluation	Serviceability Focus	User is checking whether provider fits need	Boosts lead quality
+IM-5000	IM-0000	Urgency	Urgency			User appears to need action soon	Increases transaction readiness
+IM-5100	IM-5000	Immediate Need	Urgency	Immediate Need		User needs action quickly	Shortens time horizon
+IM-5110	IM-5100	Same Day	Urgency	Immediate Need	Same Day	User likely needs same-day action	Very strong lower-funnel signal
+IM-5120	IM-5100	As Soon As Possible	Urgency	Immediate Need	As Soon As Possible	User likely needs near-immediate action	Strong lower-funnel signal
+IM-5200	IM-5000	Deadline Driven	Urgency	Deadline Driven		User is acting under time constraint	Useful for pacing and messaging
+IM-5210	IM-5200	Event Driven	Urgency	Deadline Driven	Event Driven	User is driven by an upcoming event	Improves time sensitivity
+IM-5220	IM-5200	Renewal Deadline	Urgency	Deadline Driven	Renewal Deadline	User has a renewal cutoff	Useful for retention campaigns
+IM-6000	IM-0000	Budget Conscious	Budget Conscious			User is value-oriented or cost-constrained	Increases price sensitivity signal
+IM-6100	IM-6000	Low Cost Preference	Budget Conscious	Low Cost Preference		User prefers cheaper options	Changes creative and bidding strategy
+IM-6110	IM-6100	Best Value	Budget Conscious	Low Cost Preference	Best Value	User wants value balance	Useful for comparison pages
+IM-6120	IM-6100	Cheapest Option	Budget Conscious	Low Cost Preference	Cheapest Option	User wants lowest price	May reduce premium fit
+IM-6200	IM-6000	Financing Sensitivity	Budget Conscious	Financing Sensitivity		User is cost sensitive over time	Important for high-ticket products
+IM-6210	IM-6200	Monthly Payment Focus	Budget Conscious	Financing Sensitivity	Monthly Payment Focus	User is thinking in monthly cost	Boosts financing relevance
+IM-6220	IM-6200	Affordability Focus	Budget Conscious	Financing Sensitivity	Affordability Focus	User is checking affordability	Useful for lenders and large purchases
+IM-7000	IM-0000	Upgrade Oriented	Upgrade Oriented			User likely already has a solution and wants a better one	Boosts replacement or upsell relevance
+IM-7100	IM-7000	Replacement Cycle	Upgrade Oriented	Replacement Cycle		User is considering replacement	Useful in durable goods
+IM-7110	IM-7100	Replace Existing Product	Upgrade Oriented	Replacement Cycle	Replace Existing Product	User is replacing current item	Strong purchase relevance
+IM-7120	IM-7100	Trade In Focus	Upgrade Oriented	Replacement Cycle	Trade In Focus	User is considering trade-in	Useful in auto and devices
+IM-7200	IM-7000	Plan Upgrade	Upgrade Oriented	Plan Upgrade		User is upgrading service or plan	Useful for telecom and SaaS
+IM-7210	IM-7200	Feature Upgrade	Upgrade Oriented	Plan Upgrade	Feature Upgrade	User wants better capability	Boosts upsell relevance
+IM-7220	IM-7200	Account Upgrade	Upgrade Oriented	Plan Upgrade	Account Upgrade	User is upgrading account or plan	Useful for retention
+IM-8000	IM-0000	Switching Oriented	Switching Oriented			User may leave one provider for another	Useful for conquesting
+IM-8100	IM-8000	Provider Switching	Switching Oriented	Provider Switching		User is switching service provider	Strong conquesting signal
+IM-8110	IM-8100	Switch Current Provider	Switching Oriented	Provider Switching	Switch Current Provider	User is leaving current provider	Useful for competitive targeting
+IM-8120	IM-8100	Compare Alternatives	Switching Oriented	Provider Switching	Compare Alternatives	User is assessing alternatives	Useful for upper-mid funnel
+IM-8200	IM-8000	Product Switching	Switching Oriented	Product Switching		User is switching products or brands	Useful for category competitors
+IM-8210	IM-8200	Move To New Brand	Switching Oriented	Product Switching	Move To New Brand	User is moving brands	Conquesting-friendly
+IM-8220	IM-8200	Replace Current Solution	Switching Oriented	Product Switching	Replace Current Solution	User is replacing current solution	Useful in B2B and durables

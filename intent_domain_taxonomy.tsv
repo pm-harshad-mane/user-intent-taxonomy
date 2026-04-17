@@ -1,0 +1,156 @@
+Unique ID	Parent ID	Name	Tier 1	Tier 2	Tier 3	Description	Sensitive Category Flag	B2B or B2C
+ID-0000		Intent Domain Taxonomy	Intent Domain Taxonomy			Root node		
+ID-1000	ID-0000	Retail and Consumer Goods	Retail and Consumer Goods			Consumer products and shopping	Not sensitive	B2C
+ID-1100	ID-1000	Apparel and Accessories	Retail and Consumer Goods	Apparel and Accessories		Fashion and accessories	Not sensitive	B2C
+ID-1110	ID-1100	Clothing	Retail and Consumer Goods	Apparel and Accessories	Clothing	Apparel products	Not sensitive	B2C
+ID-1120	ID-1100	Footwear and Bags	Retail and Consumer Goods	Apparel and Accessories	Footwear and Bags	Footwear and carry products	Not sensitive	B2C
+ID-1200	ID-1000	Home and Everyday Goods	Retail and Consumer Goods	Home and Everyday Goods		Household and daily-use goods	Not sensitive	B2C
+ID-1210	ID-1200	Home Essentials	Retail and Consumer Goods	Home and Everyday Goods	Home Essentials	Everyday home goods	Not sensitive	B2C
+ID-1220	ID-1200	Baby and Pet Supplies	Retail and Consumer Goods	Home and Everyday Goods	Baby and Pet Supplies	Supplies for babies and pets	Not sensitive	B2C
+ID-2000	ID-0000	Automotive	Automotive			Vehicles and related products or services	Not sensitive	B2C
+ID-2100	ID-2000	Vehicle Purchase and Ownership	Automotive	Vehicle Purchase and Ownership		Buying or owning vehicles	Not sensitive	B2C
+ID-2110	ID-2100	New and Used Vehicles	Automotive	Vehicle Purchase and Ownership	New and Used Vehicles	Vehicle shopping	Not sensitive	B2C
+ID-2120	ID-2100	Parts Service and Accessories	Automotive	Vehicle Purchase and Ownership	Parts Service and Accessories	Vehicle care and add-ons	Not sensitive	B2C
+ID-2200	ID-2000	Auto Finance and Insurance	Automotive	Auto Finance and Insurance		Financial auto-related services	Potentially sensitive	B2C
+ID-2210	ID-2200	Leasing and Financing	Automotive	Auto Finance and Insurance	Leasing and Financing	Vehicle financing	Not sensitive	B2C
+ID-2220	ID-2200	Auto Coverage	Automotive	Auto Finance and Insurance	Auto Coverage	Auto insurance	Not sensitive	B2C
+ID-3000	ID-0000	Travel	Travel			Travel and trip-related needs	Not sensitive	B2C
+ID-3100	ID-3000	Transportation and Stay	Travel	Transportation and Stay		Movement and lodging	Not sensitive	B2C
+ID-3110	ID-3100	Flights and Trains	Travel	Transportation and Stay	Flights and Trains	Travel transport	Not sensitive	B2C
+ID-3120	ID-3100	Hotels and Rentals	Travel	Transportation and Stay	Hotels and Rentals	Lodging	Not sensitive	B2C
+ID-3200	ID-3000	Destinations and Activities	Travel	Destinations and Activities		Places and things to do	Not sensitive	B2C
+ID-3210	ID-3200	Destinations	Travel	Destinations and Activities	Destinations	Travel locations	Not sensitive	B2C
+ID-3220	ID-3200	Attractions and Tours	Travel	Destinations and Activities	Attractions and Tours	Activities and tours	Not sensitive	B2C
+ID-4000	ID-0000	Dining	Dining			Food service and restaurant activity	Not sensitive	B2C
+ID-4100	ID-4000	Restaurants and Cafes	Dining	Restaurants and Cafes		Eating venues	Not sensitive	B2C
+ID-4110	ID-4100	Casual Dining	Dining	Restaurants and Cafes	Casual Dining	Everyday food venues	Not sensitive	B2C
+ID-4120	ID-4100	Premium Dining	Dining	Restaurants and Cafes	Premium Dining	Higher-end dining	Not sensitive	B2C
+ID-4200	ID-4000	Food Ordering and Delivery	Dining	Food Ordering and Delivery		Takeout and delivery	Not sensitive	B2C
+ID-4210	ID-4200	Takeout	Dining	Food Ordering and Delivery	Takeout	Order pickup	Not sensitive	B2C
+ID-4220	ID-4200	Delivery	Dining	Food Ordering and Delivery	Delivery	Order delivery	Not sensitive	B2C
+ID-5000	ID-0000	Entertainment and Media	Entertainment and Media			Media content and entertainment access	Not sensitive	B2C
+ID-5100	ID-5000	Streaming and Video	Entertainment and Media	Streaming and Video		Content viewing	Not sensitive	B2C
+ID-5110	ID-5100	Streaming Platforms	Entertainment and Media	Streaming and Video	Streaming Platforms	Subscription and viewing services	Not sensitive	B2C
+ID-5120	ID-5100	Movies and Shows	Entertainment and Media	Streaming and Video	Movies and Shows	Video content	Not sensitive	B2C
+ID-5200	ID-5000	Audio and Publishing	Entertainment and Media	Audio and Publishing		Music, podcasts, reading	Not sensitive	B2C
+ID-5210	ID-5200	Music and Podcasts	Entertainment and Media	Audio and Publishing	Music and Podcasts	Audio entertainment	Not sensitive	B2C
+ID-5220	ID-5200	Books and Publishing	Entertainment and Media	Audio and Publishing	Books and Publishing	Reading content	Not sensitive	B2C
+ID-6000	ID-0000	Gaming	Gaming			Games and gaming-related spend	Not sensitive	B2C
+ID-6100	ID-6000	Game Access and Purchase	Gaming	Game Access and Purchase		Buying or accessing games	Not sensitive	B2C
+ID-6110	ID-6100	Console and PC Games	Gaming	Game Access and Purchase	Console and PC Games	Traditional games	Not sensitive	B2C
+ID-6120	ID-6100	Mobile Games and Add Ons	Gaming	Game Access and Purchase	Mobile Games and Add Ons	Mobile games and extras	Not sensitive	B2C
+ID-6200	ID-6000	Gameplay and Community	Gaming	Gameplay and Community		Gameplay improvement and communities	Not sensitive	B2C
+ID-6210	ID-6200	Tips and Strategy	Gaming	Gameplay and Community	Tips and Strategy	Game improvement	Not sensitive	B2C
+ID-6220	ID-6200	Streaming and Esports	Gaming	Gameplay and Community	Streaming and Esports	Watching or participating socially	Not sensitive	B2C
+ID-7000	ID-0000	Technology	Technology			Consumer or professional technology	Not sensitive	Both
+ID-7100	ID-7000	Devices and Hardware	Technology	Devices and Hardware		Physical technology	Not sensitive	Both
+ID-7110	ID-7100	Phones and Computers	Technology	Devices and Hardware	Phones and Computers	Core devices	Not sensitive	Both
+ID-7120	ID-7100	Networking and Accessories	Technology	Devices and Hardware	Networking and Accessories	Tech accessories and network gear	Not sensitive	Both
+ID-7200	ID-7000	Software and Digital Services	Technology	Software and Digital Services		Apps and digital tools	Not sensitive	Both
+ID-7210	ID-7200	Consumer Software	Technology	Software and Digital Services	Consumer Software	Consumer apps	Not sensitive	B2C
+ID-7220	ID-7200	Professional Software	Technology	Software and Digital Services	Professional Software	Business or work software	Not sensitive	B2B
+ID-8000	ID-0000	Financial Services	Financial Services			Banking, investing, credit, and money services	Potentially sensitive	B2C
+ID-8100	ID-8000	Banking and Credit	Financial Services	Banking and Credit		Banking and credit products	Potentially sensitive	B2C
+ID-8110	ID-8100	Credit Cards and Loans	Financial Services	Banking and Credit	Credit Cards and Loans	Credit and borrowing	Potentially sensitive	B2C
+ID-8120	ID-8100	Checking and Savings	Financial Services	Banking and Credit	Checking and Savings	Deposit products	Potentially sensitive	B2C
+ID-8200	ID-8000	Investing and Wealth	Financial Services	Investing and Wealth		Investment and wealth tools	Potentially sensitive	B2C
+ID-8210	ID-8200	Brokerage and Trading	Financial Services	Investing and Wealth	Brokerage and Trading	Investment platforms	Potentially sensitive	B2C
+ID-8220	ID-8200	Retirement and Wealth Planning	Financial Services	Investing and Wealth	Retirement and Wealth Planning	Long-term planning	Potentially sensitive	B2C
+ID-9000	ID-0000	Insurance	Insurance			Insurance products and services	Potentially sensitive	B2C
+ID-9100	ID-9000	Personal Coverage	Insurance	Personal Coverage		Personal insurance needs	Potentially sensitive	B2C
+ID-9110	ID-9100	Health and Life Coverage	Insurance	Personal Coverage	Health and Life Coverage	Personal protection products	Sensitive	B2C
+ID-9120	ID-9100	Home and Auto Coverage	Insurance	Personal Coverage	Home and Auto Coverage	Property or vehicle coverage	Not sensitive	B2C
+ID-9200	ID-9000	Policy Management and Claims	Insurance	Policy Management and Claims		Post-purchase insurance actions	Potentially sensitive	B2C
+ID-9210	ID-9200	Claims	Insurance	Policy Management and Claims	Claims	Filing or managing claims	Potentially sensitive	B2C
+ID-9220	ID-9200	Renewal and Changes	Insurance	Policy Management and Claims	Renewal and Changes	Policy updates	Not sensitive	B2C
+ID-A000	ID-0000	Real Estate	Real Estate			Property purchase, rental, or ownership	Potentially sensitive	B2C
+ID-A100	ID-A000	Buying and Renting	Real Estate	Buying and Renting		Acquiring property	Potentially sensitive	B2C
+ID-A110	ID-A100	Home Purchase	Real Estate	Buying and Renting	Home Purchase	Buying homes	Potentially sensitive	B2C
+ID-A120	ID-A100	Rentals	Real Estate	Buying and Renting	Rentals	Renting property	Potentially sensitive	B2C
+ID-A200	ID-A000	Ownership and Financing	Real Estate	Ownership and Financing		Financing and ownership management	Potentially sensitive	B2C
+ID-A210	ID-A200	Mortgages and Refinance	Real Estate	Ownership and Financing	Mortgages and Refinance	Mortgage products	Potentially sensitive	B2C
+ID-A220	ID-A200	Home Services and Ownership	Real Estate	Ownership and Financing	Home Services and Ownership	Property upkeep and services	Not sensitive	B2C
+ID-B000	ID-0000	Health Care	Health Care			Medical and care-related services	Sensitive	B2C
+ID-B100	ID-B000	Care Discovery	Health Care	Care Discovery		Finding providers or treatment	Sensitive	B2C
+ID-B110	ID-B100	Providers and Clinics	Health Care	Care Discovery	Providers and Clinics	Health providers	Sensitive	B2C
+ID-B120	ID-B100	Treatments and Procedures	Health Care	Care Discovery	Treatments and Procedures	Treatment options	Sensitive	B2C
+ID-B200	ID-B000	Medication and Ongoing Care	Health Care	Medication and Ongoing Care		Medication and long-term care	Sensitive	B2C
+ID-B210	ID-B200	Prescriptions	Health Care	Medication and Ongoing Care	Prescriptions	Medication needs	Sensitive	B2C
+ID-B220	ID-B200	Therapy and Ongoing Support	Health Care	Medication and Ongoing Care	Therapy and Ongoing Support	Ongoing care or support	Sensitive	B2C
+ID-C000	ID-0000	Wellness and Beauty	Wellness and Beauty			Fitness, beauty, and self-improvement	Potentially sensitive	B2C
+ID-C100	ID-C000	Fitness and Nutrition	Wellness and Beauty	Fitness and Nutrition		Exercise and nutrition	Not sensitive	B2C
+ID-C110	ID-C100	Fitness Programs	Wellness and Beauty	Fitness and Nutrition	Fitness Programs	Exercise-related offerings	Not sensitive	B2C
+ID-C120	ID-C100	Diet and Supplements	Wellness and Beauty	Fitness and Nutrition	Diet and Supplements	Nutrition and supplements	Potentially sensitive	B2C
+ID-C200	ID-C000	Beauty and Personal Care	Wellness and Beauty	Beauty and Personal Care		Beauty and grooming	Not sensitive	B2C
+ID-C210	ID-C200	Skincare and Cosmetics	Wellness and Beauty	Beauty and Personal Care	Skincare and Cosmetics	Beauty products	Not sensitive	B2C
+ID-C220	ID-C200	Grooming and Services	Wellness and Beauty	Beauty and Personal Care	Grooming and Services	Beauty services	Not sensitive	B2C
+ID-D000	ID-0000	Careers	Careers			Employment and career growth	Potentially sensitive	B2C
+ID-D100	ID-D000	Job Search and Applications	Careers	Job Search and Applications		Finding and applying for work	Potentially sensitive	B2C
+ID-D110	ID-D100	Job Discovery	Careers	Job Search and Applications	Job Discovery	Finding jobs	Potentially sensitive	B2C
+ID-D120	ID-D100	Applications and Interviews	Careers	Job Search and Applications	Applications and Interviews	Applying and interviewing	Potentially sensitive	B2C
+ID-D200	ID-D000	Professional Growth	Careers	Professional Growth		Skill and career development	Not sensitive	B2C
+ID-D210	ID-D200	Resume and Skills	Careers	Professional Growth	Resume and Skills	Career materials and skills	Not sensitive	B2C
+ID-D220	ID-D200	Career Change	Careers	Professional Growth	Career Change	Transition planning	Not sensitive	B2C
+ID-E000	ID-0000	Education	Education			Learning programs and institutions	Not sensitive	Both
+ID-E100	ID-E000	Academic Programs	Education	Academic Programs		Schools and formal education	Not sensitive	Both
+ID-E110	ID-E100	Schools and Degrees	Education	Academic Programs	Schools and Degrees	Degree programs	Not sensitive	Both
+ID-E120	ID-E100	Certifications and Courses	Education	Academic Programs	Certifications and Courses	Professional or personal education	Not sensitive	Both
+ID-E200	ID-E000	Admissions and Funding	Education	Admissions and Funding		Applications and financing	Not sensitive	Both
+ID-E210	ID-E200	Applications	Education	Admissions and Funding	Applications	Education applications	Not sensitive	Both
+ID-E220	ID-E200	Tuition and Aid	Education	Admissions and Funding	Tuition and Aid	Cost and aid	Not sensitive	Both
+ID-F000	ID-0000	Parenting and Family	Parenting and Family			Family, household, and child-related needs	Potentially sensitive	B2C
+ID-F100	ID-F000	Family Products and Services	Parenting and Family	Family Products and Services		Products and services for families	Not sensitive	B2C
+ID-F110	ID-F100	Baby and Child Products	Parenting and Family	Family Products and Services	Baby and Child Products	Family shopping	Not sensitive	B2C
+ID-F120	ID-F100	Family Activities and Services	Parenting and Family	Family Products and Services	Family Activities and Services	Family support or activities	Not sensitive	B2C
+ID-F200	ID-F000	Parenting Guidance and Support	Parenting and Family	Parenting Guidance and Support		Family support needs	Potentially sensitive	B2C
+ID-F210	ID-F200	Parenting Advice	Parenting and Family	Parenting Guidance and Support	Parenting Advice	Guidance content	Potentially sensitive	B2C
+ID-F220	ID-F200	Family Support Solutions	Parenting and Family	Parenting Guidance and Support	Family Support Solutions	Services or resources	Potentially sensitive	B2C
+ID-G000	ID-0000	Home and Garden	Home and Garden			Home improvement and upkeep	Not sensitive	B2C
+ID-G100	ID-G000	Furnishing and Decor	Home and Garden	Furnishing and Decor		Home style and furnishings	Not sensitive	B2C
+ID-G110	ID-G100	Furniture and Decor	Home and Garden	Furnishing and Decor	Furniture and Decor	Home products	Not sensitive	B2C
+ID-G120	ID-G100	Appliances and Fixtures	Home and Garden	Furnishing and Decor	Appliances and Fixtures	Functional home goods	Not sensitive	B2C
+ID-G200	ID-G000	Repair Renovation and Services	Home and Garden	Repair Renovation and Services		Home maintenance and projects	Not sensitive	B2C
+ID-G210	ID-G200	Repair and Maintenance	Home and Garden	Repair Renovation and Services	Repair and Maintenance	Home fixes	Not sensitive	B2C
+ID-G220	ID-G200	Remodel and Improvement	Home and Garden	Repair Renovation and Services	Remodel and Improvement	Home upgrades	Not sensitive	B2C
+ID-H000	ID-0000	Professional Services	Professional Services			Personal or SMB services	Not sensitive	Both
+ID-H100	ID-H000	Home and Local Services	Professional Services	Home and Local Services		Service providers for local needs	Not sensitive	B2C
+ID-H110	ID-H100	Contractors and Repair Services	Professional Services	Home and Local Services	Contractors and Repair Services	Local service providers	Not sensitive	B2C
+ID-H120	ID-H100	Cleaning and Personal Services	Professional Services	Home and Local Services	Cleaning and Personal Services	Personal or home services	Not sensitive	B2C
+ID-H200	ID-H000	Advisory and Consulting Services	Professional Services	Advisory and Consulting Services		Professional advisory services	Not sensitive	Both
+ID-H210	ID-H200	Financial Advisors and Tax Services	Professional Services	Advisory and Consulting Services	Financial Advisors and Tax Services	Advisory financial services	Potentially sensitive	Both
+ID-H220	ID-H200	Business and Strategy Consulting	Professional Services	Advisory and Consulting Services	Business and Strategy Consulting	Professional consulting	Not sensitive	B2B
+ID-I000	ID-0000	Telecom and Utilities	Telecom and Utilities			Connectivity and utility services	Not sensitive	Both
+ID-I100	ID-I000	Connectivity Services	Telecom and Utilities	Connectivity Services		Phone and internet	Not sensitive	Both
+ID-I110	ID-I100	Mobile Plans	Telecom and Utilities	Connectivity Services	Mobile Plans	Phone service plans	Not sensitive	Both
+ID-I120	ID-I100	Internet and Bundles	Telecom and Utilities	Connectivity Services	Internet and Bundles	Home or business internet	Not sensitive	Both
+ID-I200	ID-I000	Utility Services	Telecom and Utilities	Utility Services		Energy or household utilities	Not sensitive	Both
+ID-I210	ID-I200	Energy Providers	Telecom and Utilities	Utility Services	Energy Providers	Power providers	Not sensitive	Both
+ID-I220	ID-I200	Utility Account Services	Telecom and Utilities	Utility Services	Utility Account Services	Account management	Not sensitive	Both
+ID-J000	ID-0000	Business and B2B Solutions	Business and B2B Solutions			Business products and services	Not sensitive	B2B
+ID-J100	ID-J000	Software and SaaS	Business and B2B Solutions	Software and SaaS		Business software	Not sensitive	B2B
+ID-J110	ID-J100	CRM Sales and Marketing	Business and B2B Solutions	Software and SaaS	CRM Sales and Marketing	Revenue software	Not sensitive	B2B
+ID-J120	ID-J100	Finance HR and Operations Software	Business and B2B Solutions	Software and SaaS	Finance HR and Operations Software	Operational software	Not sensitive	B2B
+ID-J200	ID-J000	Infrastructure and Data	Business and B2B Solutions	Infrastructure and Data		Cloud, data, and infrastructure	Not sensitive	B2B
+ID-J210	ID-J200	Cloud and Security	Business and B2B Solutions	Infrastructure and Data	Cloud and Security	Infrastructure products	Not sensitive	B2B
+ID-J220	ID-J200	Data AI and Analytics	Business and B2B Solutions	Infrastructure and Data	Data AI and Analytics	Data or AI products	Not sensitive	B2B
+ID-K000	ID-0000	Nonprofit and Causes	Nonprofit and Causes			Charities, social causes, and giving	Potentially sensitive	B2C
+ID-K100	ID-K000	Cause Discovery	Nonprofit and Causes	Cause Discovery		Learning about causes	Potentially sensitive	B2C
+ID-K110	ID-K100	Charities and Donations	Nonprofit and Causes	Cause Discovery	Charities and Donations	Organizations and donations	Potentially sensitive	B2C
+ID-K120	ID-K100	Volunteer Opportunities	Nonprofit and Causes	Cause Discovery	Volunteer Opportunities	Volunteer engagement	Potentially sensitive	B2C
+ID-K200	ID-K000	Cause Participation	Nonprofit and Causes	Cause Participation		Acting for a cause	Potentially sensitive	B2C
+ID-K210	ID-K200	Donations	Nonprofit and Causes	Cause Participation	Donations	Contributing financially	Potentially sensitive	B2C
+ID-K220	ID-K200	Volunteer Support	Nonprofit and Causes	Cause Participation	Volunteer Support	Contributing time	Potentially sensitive	B2C
+ID-L000	ID-0000	Legal and Compliance	Legal and Compliance			Legal help or compliance matters	Sensitive	Both
+ID-L100	ID-L000	Personal Legal Services	Legal and Compliance	Personal Legal Services		Consumer legal needs	Sensitive	B2C
+ID-L110	ID-L100	Family and Civil Matters	Legal and Compliance	Personal Legal Services	Family and Civil Matters	Personal legal issues	Sensitive	B2C
+ID-L120	ID-L100	Injury and Claims	Legal and Compliance	Personal Legal Services	Injury and Claims	Claim-related legal services	Sensitive	B2C
+ID-L200	ID-L000	Business Legal and Compliance	Legal and Compliance	Business Legal and Compliance		Business legal support	Potentially sensitive	B2B
+ID-L210	ID-L200	Contracts and Corporate Matters	Legal and Compliance	Business Legal and Compliance	Contracts and Corporate Matters	Corporate legal work	Potentially sensitive	B2B
+ID-L220	ID-L200	Privacy Risk and Compliance	Legal and Compliance	Business Legal and Compliance	Privacy Risk and Compliance	Compliance services	Potentially sensitive	B2B
+ID-M000	ID-0000	Community and Social	Community and Social			Community groups and social engagement	Potentially sensitive	B2C
+ID-M100	ID-M000	Local Community	Community and Social	Local Community		Neighborhood and local groups	Potentially sensitive	B2C
+ID-M110	ID-M100	Local Groups	Community and Social	Local Community	Local Groups	Local community groups	Potentially sensitive	B2C
+ID-M120	ID-M100	Events and Meetups	Community and Social	Local Community	Events and Meetups	Social gatherings	Potentially sensitive	B2C
+ID-M200	ID-M000	Online Communities	Community and Social	Online Communities		Forums and communities	Potentially sensitive	B2C
+ID-M210	ID-M200	Interest Communities	Community and Social	Online Communities	Interest Communities	Communities around interests	Potentially sensitive	B2C
+ID-M220	ID-M200	Support Communities	Community and Social	Online Communities	Support Communities	Communities around personal support	Sensitive	B2C

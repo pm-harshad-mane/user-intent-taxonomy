@@ -1,0 +1,109 @@
+Unique ID	Parent ID	Name	Tier 1	Tier 2	Tier 3	Description	Primary KPI Alignment	Lead Gen Relevance	Default Actionability	Default Performance Utility
+IP-0000		Intent Pattern Taxonomy	Intent Pattern Taxonomy			Root node				
+IP-1000	IP-0000	Purchase Intent	Purchase Intent			User is trying to buy a product	Purchase	Low	Eligible	High
+IP-1100	IP-1000	Consumer Goods Purchase	Purchase Intent	Consumer Goods Purchase		User is trying to buy consumer products	Purchase	Low	Eligible	High
+IP-1110	IP-1100	Everyday Item Purchase	Purchase Intent	Consumer Goods Purchase	Everyday Item Purchase	User is trying to buy lower-consideration goods	Purchase	Low	Eligible	High
+IP-1120	IP-1100	Durable Goods Purchase	Purchase Intent	Consumer Goods Purchase	Durable Goods Purchase	User is trying to buy higher-consideration goods	Purchase	Low	Eligible	High
+IP-1200	IP-1000	High Consideration Purchase	Purchase Intent	High Consideration Purchase		User is evaluating a major purchase	Purchase	Low	Eligible With Strong Confidence Only	High
+IP-1210	IP-1200	Researching Major Purchase	Purchase Intent	High Consideration Purchase	Researching Major Purchase	User is researching before selecting a major item	Purchase	Low	Eligible With Strong Confidence Only	High
+IP-1220	IP-1200	Ready to Buy Major Item	Purchase Intent	High Consideration Purchase	Ready to Buy Major Item	User appears close to purchase	Purchase	Low	Eligible	High
+IP-2000	IP-0000	Lead Generation Intent	Lead Generation Intent			User is showing lead-oriented action intent	Lead	High	Eligible	High
+IP-2100	IP-2000	Contact and Consultation	Lead Generation Intent	Contact and Consultation		User is looking to initiate contact or consultation	Lead	High	Eligible	High
+IP-2110	IP-2100	Consultation Request	Lead Generation Intent	Contact and Consultation	Consultation Request	User is seeking consultation	Lead	High	Eligible	High
+IP-2120	IP-2100	Contact Request	Lead Generation Intent	Contact and Consultation	Contact Request	User is trying to contact a provider	Lead	High	Eligible	High
+IP-2200	IP-2000	Application and Submission	Lead Generation Intent	Application and Submission		User is preparing to submit details	Lead	High	Eligible	High
+IP-2210	IP-2200	Form Submission	Lead Generation Intent	Application and Submission	Form Submission	User is likely to fill or submit a form	Lead	High	Eligible	High
+IP-2220	IP-2200	Application Submission	Lead Generation Intent	Application and Submission	Application Submission	User is likely to apply or submit an application	Lead	High	Eligible	High
+IP-2300	IP-2000	Sales Engagement	Lead Generation Intent	Sales Engagement		User is engaging in sales-oriented actions	Lead	High	Eligible	High
+IP-2310	IP-2300	Demo Request	Lead Generation Intent	Sales Engagement	Demo Request	User is likely to request a demo	Lead	High	Eligible	High
+IP-2320	IP-2300	Call Request	Lead Generation Intent	Sales Engagement	Call Request	User is likely to request a call	Lead	High	Eligible	High
+IP-3000	IP-0000	Booking and Reservation Intent	Booking and Reservation Intent			User is trying to reserve or book	Booking	Medium	Eligible	High
+IP-3100	IP-3000	Travel and Stay Booking	Booking and Reservation Intent	Travel and Stay Booking		User is trying to book travel or lodging	Booking	Medium	Eligible	High
+IP-3110	IP-3100	Flight Booking	Booking and Reservation Intent	Travel and Stay Booking	Flight Booking	User is likely to book flights	Booking	Medium	Eligible	High
+IP-3120	IP-3100	Hotel Booking	Booking and Reservation Intent	Travel and Stay Booking	Hotel Booking	User is likely to book lodging	Booking	Medium	Eligible	High
+IP-3200	IP-3000	Appointment and Visit Booking	Booking and Reservation Intent	Appointment and Visit Booking		User is trying to reserve time or access	Booking	High	Eligible	High
+IP-3210	IP-3200	Appointment Booking	Booking and Reservation Intent	Appointment and Visit Booking	Appointment Booking	User is likely to book an appointment	Booking	High	Eligible	High
+IP-3220	IP-3200	Restaurant Reservation	Booking and Reservation Intent	Appointment and Visit Booking	Restaurant Reservation	User is likely to reserve a restaurant	Booking	Low	Eligible	Medium
+IP-3300	IP-3000	Event and Ticket Booking	Booking and Reservation Intent	Event and Ticket Booking		User is trying to attend or reserve an event	Booking	Low	Eligible	Medium
+IP-3310	IP-3300	Ticket Purchase	Booking and Reservation Intent	Event and Ticket Booking	Ticket Purchase	User is likely to buy tickets	Booking	Low	Eligible	Medium
+IP-3320	IP-3300	Event Reservation	Booking and Reservation Intent	Event and Ticket Booking	Event Reservation	User is likely to reserve an event	Booking	Low	Eligible	Medium
+IP-4000	IP-0000	Subscription Intent	Subscription Intent			User is evaluating or ready to subscribe	Subscription	Medium	Eligible	High
+IP-4100	IP-4000	Media and Content Subscription	Subscription Intent	Media and Content Subscription		User is evaluating content subscriptions	Subscription	Low	Eligible	Medium
+IP-4110	IP-4100	Streaming Subscription Research	Subscription Intent	Media and Content Subscription	Streaming Subscription Research	User is researching streaming subscriptions	Subscription	Low	Eligible With Strong Confidence Only	Medium
+IP-4120	IP-4100	Ready to Subscribe Media Service	Subscription Intent	Media and Content Subscription	Ready to Subscribe Media Service	User is close to subscribing	Subscription	Low	Eligible	Medium
+IP-4200	IP-4000	Product and Membership Subscription	Subscription Intent	Product and Membership Subscription		User is evaluating recurring products or memberships	Subscription	Medium	Eligible	High
+IP-4210	IP-4200	Recurring Delivery Interest	Subscription Intent	Product and Membership Subscription	Recurring Delivery Interest	User is interested in recurring delivery	Subscription	Medium	Eligible	High
+IP-4220	IP-4200	Membership Enrollment	Subscription Intent	Product and Membership Subscription	Membership Enrollment	User is close to enrolling in a membership	Subscription	Medium	Eligible	High
+IP-5000	IP-0000	Quote and Estimate Intent	Quote and Estimate Intent			User is trying to understand or request pricing	Quote	High	Eligible	High
+IP-5100	IP-5000	Price Discovery	Quote and Estimate Intent	Price Discovery		User is checking likely cost	Quote	Medium	Eligible	High
+IP-5110	IP-5100	Checking Price Range	Quote and Estimate Intent	Price Discovery	Checking Price Range	User is checking general pricing	Quote	Medium	Eligible	High
+IP-5120	IP-5100	Requesting Custom Estimate	Quote and Estimate Intent	Price Discovery	Requesting Custom Estimate	User is seeking a tailored estimate	Quote	High	Eligible	High
+IP-5200	IP-5000	Financial Quote	Quote and Estimate Intent	Financial Quote		User is seeking regulated or financial quotes	Quote	High	Eligible	High
+IP-5210	IP-5200	Insurance Quote	Quote and Estimate Intent	Financial Quote	Insurance Quote	User is seeking insurance pricing	Quote	High	Eligible	High
+IP-5220	IP-5200	Loan or Financing Quote	Quote and Estimate Intent	Financial Quote	Loan or Financing Quote	User is seeking financing terms	Quote	High	Eligible	High
+IP-6000	IP-0000	Comparison Intent	Comparison Intent			User is comparing options before deciding	Engagement	Medium	Eligible With Strong Confidence Only	Medium
+IP-6100	IP-6000	Product Comparison	Comparison Intent	Product Comparison		User is comparing products	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-6110	IP-6100	Brand Comparison	Comparison Intent	Product Comparison	Brand Comparison	User is comparing brands	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-6120	IP-6100	Feature Comparison	Comparison Intent	Product Comparison	Feature Comparison	User is comparing capabilities or features	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-6200	IP-6000	Provider Comparison	Comparison Intent	Provider Comparison		User is comparing providers or sellers	Lead	Medium	Eligible With Strong Confidence Only	Medium
+IP-6210	IP-6200	Service Provider Comparison	Comparison Intent	Provider Comparison	Service Provider Comparison	User is comparing service providers	Lead	Medium	Eligible With Strong Confidence Only	Medium
+IP-6220	IP-6200	Price and Value Comparison	Comparison Intent	Provider Comparison	Price and Value Comparison	User is comparing cost relative to value	Lead	Medium	Eligible With Strong Confidence Only	Medium
+IP-7000	IP-0000	Review and Validation Intent	Review and Validation Intent			User is validating choices through reviews or social proof	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-7100	IP-7000	Expert Review Consumption	Review and Validation Intent	Expert Review Consumption		User is consuming expert review material	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-7110	IP-7100	Reading Editorial Reviews	Review and Validation Intent	Expert Review Consumption	Reading Editorial Reviews	User is reading expert reviews	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-7120	IP-7100	Watching Product Review Content	Review and Validation Intent	Expert Review Consumption	Watching Product Review Content	User is watching reviews	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-7200	IP-7000	Social Proof and Validation	Review and Validation Intent	Social Proof and Validation		User is relying on other users for validation	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-7210	IP-7200	Reading Customer Ratings	Review and Validation Intent	Social Proof and Validation	Reading Customer Ratings	User is checking ratings	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-7220	IP-7200	Checking Reputation Signals	Review and Validation Intent	Social Proof and Validation	Checking Reputation Signals	User is validating trust or reputation	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-8000	IP-0000	Research and Learning Intent	Research and Learning Intent			User is researching, learning, or defining a need	Engagement	Medium	Reporting Only	Primarily Analytical
+IP-8100	IP-8000	Topic Learning	Research and Learning Intent	Topic Learning		User is learning about a topic	Engagement	Low	Reporting Only	Primarily Analytical
+IP-8110	IP-8100	Introductory Learning	Research and Learning Intent	Topic Learning	Introductory Learning	User is at an early learning stage	Engagement	Low	Reporting Only	Primarily Analytical
+IP-8120	IP-8100	Deep Research Learning	Research and Learning Intent	Topic Learning	Deep Research Learning	User is deeply researching a topic	Engagement	Low	Eligible With Strong Confidence Only	Low
+IP-8200	IP-8000	Specification and Requirement Research	Research and Learning Intent	Specification and Requirement Research		User is studying specs, requirements, or fit	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-8210	IP-8200	Understanding Product Specs	Research and Learning Intent	Specification and Requirement Research	Understanding Product Specs	User is trying to understand specifications	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-8220	IP-8200	Checking Compatibility	Research and Learning Intent	Specification and Requirement Research	Checking Compatibility	User is checking technical or practical fit	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-8300	IP-8000	Problem Definition	Research and Learning Intent	Problem Definition		User is defining the need or solution space	Engagement	Medium	Reporting Only	Primarily Analytical
+IP-8310	IP-8300	Looking for Solution Types	Research and Learning Intent	Problem Definition	Looking for Solution Types	User is exploring solution categories	Engagement	Medium	Reporting Only	Primarily Analytical
+IP-8320	IP-8300	Defining Need Clearly	Research and Learning Intent	Problem Definition	Defining Need Clearly	User is narrowing their need	Engagement	Medium	Eligible With Strong Confidence Only	Low
+IP-9000	IP-0000	Planning Intent	Planning Intent			User is planning timing, budget, or logistics	Engagement	Medium	Eligible With Strong Confidence Only	Medium
+IP-9100	IP-9000	Purchase Planning	Planning Intent	Purchase Planning		User is planning a future purchase	Engagement	Medium	Eligible With Strong Confidence Only	Medium
+IP-9110	IP-9100	Budgeting for Purchase	Planning Intent	Purchase Planning	Budgeting for Purchase	User is planning budget	Engagement	Medium	Eligible With Strong Confidence Only	Medium
+IP-9120	IP-9100	Timeline Planning	Planning Intent	Purchase Planning	Timeline Planning	User is planning when to act	Engagement	Medium	Eligible With Strong Confidence Only	Medium
+IP-9200	IP-9000	Activity Planning	Planning Intent	Activity Planning		User is planning a trip, event, or life activity	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-9210	IP-9200	Trip Planning	Planning Intent	Activity Planning	Trip Planning	User is planning travel or outing	Engagement	Low	Eligible With Strong Confidence Only	Medium
+IP-9220	IP-9200	Household Planning	Planning Intent	Activity Planning	Household Planning	User is planning household-related activity	Engagement	Low	Eligible With Strong Confidence Only	Low
+IP-A000	IP-0000	Local Visit Intent	Local Visit Intent			User is likely to visit a local place	Store Visit	Medium	Eligible With Strong Confidence Only	Medium
+IP-A100	IP-A000	Nearby Place Discovery	Local Visit Intent	Nearby Place Discovery		User is searching for nearby options	Store Visit	Medium	Eligible With Strong Confidence Only	Medium
+IP-A110	IP-A100	Finding Places Nearby	Local Visit Intent	Nearby Place Discovery	Finding Places Nearby	User is explicitly finding nearby places	Store Visit	Medium	Eligible With Strong Confidence Only	Medium
+IP-A120	IP-A100	Checking Local Options	Local Visit Intent	Nearby Place Discovery	Checking Local Options	User is evaluating local options	Store Visit	Medium	Eligible With Strong Confidence Only	Medium
+IP-A200	IP-A000	Visit Preparation	Local Visit Intent	Visit Preparation		User is preparing for a local visit	Store Visit	Low	Eligible With Strong Confidence Only	Medium
+IP-A210	IP-A200	Checking Hours and Access	Local Visit Intent	Visit Preparation	Checking Hours and Access	User is checking readiness to visit	Store Visit	Low	Eligible With Strong Confidence Only	Medium
+IP-A220	IP-A200	Preparing Local Visit	Local Visit Intent	Visit Preparation	Preparing Local Visit	User is preparing details for a visit	Store Visit	Low	Eligible With Strong Confidence Only	Medium
+IP-B000	IP-0000	Retention and Renewal Intent	Retention and Renewal Intent			User is deciding whether to continue, renew, or switch	Renewal	Medium	Eligible	High
+IP-B100	IP-B000	Renewal Evaluation	Retention and Renewal Intent	Renewal Evaluation		User is considering continuation options	Renewal	Medium	Eligible	High
+IP-B110	IP-B100	Considering Renewal	Retention and Renewal Intent	Renewal Evaluation	Considering Renewal	User is assessing whether to renew	Renewal	Medium	Eligible	High
+IP-B120	IP-B100	Comparing Renew Versus Switch	Retention and Renewal Intent	Renewal Evaluation	Comparing Renew Versus Switch	User is deciding whether to stay or switch	Renewal	Medium	Eligible	High
+IP-B200	IP-B000	Account Continuation Action	Retention and Renewal Intent	Account Continuation Action		User is close to renewal or cancellation	Renewal	Medium	Eligible	High
+IP-B210	IP-B200	Renewing or Upgrading	Retention and Renewal Intent	Account Continuation Action	Renewing or Upgrading	User is likely to upgrade or renew	Renewal	Medium	Eligible	High
+IP-B220	IP-B200	Cancelling or Downgrading	Retention and Renewal Intent	Account Continuation Action	Cancelling or Downgrading	User is likely to reduce or cancel	Renewal	Medium	Eligible	High
+IP-C000	IP-0000	Service and Support Intent	Service and Support Intent			User is trying to get help or resolution	Support Resolution	Low	Eligible	Medium
+IP-C100	IP-C000	Help Seeking	Service and Support Intent	Help Seeking		User is searching for support resources	Support Resolution	Low	Eligible	Medium
+IP-C110	IP-C100	Contacting Support	Service and Support Intent	Help Seeking	Contacting Support	User is trying to reach support	Support Resolution	Low	Eligible	Medium
+IP-C120	IP-C100	Finding Help Resources	Service and Support Intent	Help Seeking	Finding Help Resources	User is looking for self-service help	Support Resolution	Low	Eligible	Medium
+IP-C200	IP-C000	Resolution Action	Service and Support Intent	Resolution Action		User is trying to resolve a problem	Support Resolution	Low	Eligible	Medium
+IP-C210	IP-C200	Return or Refund	Service and Support Intent	Resolution Action	Return or Refund	User is seeking return or refund	Support Resolution	Low	Eligible	Medium
+IP-C220	IP-C200	Claim Complaint or Issue Resolution	Service and Support Intent	Resolution Action	Claim Complaint or Issue Resolution	User is addressing a complaint or issue	Support Resolution	Low	Eligible	Medium
+IP-D000	IP-0000	Post Purchase Usage Intent	Post Purchase Usage Intent			User likely already owns or uses the product or service	Retention	Low	Eligible	Low
+IP-D100	IP-D000	Setup and Usage	Post Purchase Usage Intent	Setup and Usage		User is setting up or learning to use	Retention	Low	Eligible	Low
+IP-D110	IP-D100	Setup and Configuration	Post Purchase Usage Intent	Setup and Usage	Setup and Configuration	User is setting up a product or service	Retention	Low	Eligible	Low
+IP-D120	IP-D100	Learning How to Use	Post Purchase Usage Intent	Setup and Usage	Learning How to Use	User is learning how to use	Retention	Low	Eligible	Low
+IP-D200	IP-D000	Ownership Optimization	Post Purchase Usage Intent	Ownership Optimization		User is optimizing value after purchase	Retention	Low	Eligible	Low
+IP-D210	IP-D200	Maintenance and Care	Post Purchase Usage Intent	Ownership Optimization	Maintenance and Care	User is maintaining the product or service	Retention	Low	Eligible	Low
+IP-D220	IP-D200	Maximizing Value from Purchase	Post Purchase Usage Intent	Ownership Optimization	Maximizing Value from Purchase	User is trying to get more value post-purchase	Retention	Low	Eligible	Low
+IP-E000	IP-0000	Passive or Ambiguous Intent	Passive or Ambiguous Intent			Intent is weak, passive, or unclear	Engagement	None	Reporting Only	Primarily Analytical
+IP-E100	IP-E000	Passive Consumption	Passive or Ambiguous Intent	Passive Consumption		User is consuming content without clear action intent	Engagement	None	Reporting Only	Primarily Analytical
+IP-E110	IP-E100	General Browsing	Passive or Ambiguous Intent	Passive Consumption	General Browsing	Content indicates broad browsing only	Engagement	None	Reporting Only	Primarily Analytical
+IP-E120	IP-E100	Entertainment Only Consumption	Passive or Ambiguous Intent	Passive Consumption	Entertainment Only Consumption	Content suggests low-action entertainment use	Engagement	None	Reporting Only	Primarily Analytical
+IP-E200	IP-E000	Ambiguous Intent	Passive or Ambiguous Intent	Ambiguous Intent		Multiple or unclear intent possibilities	Engagement	None	Reporting Only	Primarily Analytical
+IP-E210	IP-E200	Multiple Plausible Intents	Passive or Ambiguous Intent	Ambiguous Intent	Multiple Plausible Intents	Several intents appear equally likely	Engagement	None	Reporting Only	Primarily Analytical
+IP-E220	IP-E200	No Clear Action Signal	Passive or Ambiguous Intent	Ambiguous Intent	No Clear Action Signal	No actionable signal is present	Engagement	None	Reporting Only	Primarily Analytical

@@ -1,0 +1,6 @@
+Unique ID	Parent ID	Name	Tier 1	Tier 2	Tier 3	Description
+CR-0000		Commercial Readiness Taxonomy	Commercial Readiness Taxonomy			Root node
+CR-1000	CR-0000	Non Commercial Informational	Commercial Readiness	Non Commercial Informational		Content is mostly educational or passive
+CR-2000	CR-0000	Commercial Investigation	Commercial Readiness	Commercial Investigation		User is evaluating products or services
+CR-3000	CR-0000	Transaction Readiness	Commercial Readiness	Transaction Readiness		User is close to acting commercially
+CR-4000	CR-0000	Post Transaction	Commercial Readiness	Post Transaction		User likely already converted

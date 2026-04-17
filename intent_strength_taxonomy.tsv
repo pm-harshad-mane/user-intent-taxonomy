@@ -1,0 +1,6 @@
+Unique ID	Parent ID	Name	Tier 1	Tier 2	Tier 3	Description
+IG-0000		Intent Strength Taxonomy	Intent Strength Taxonomy			Root node
+IG-1000	IG-0000	Weak	Intent Strength	Weak		Weak intent signal
+IG-2000	IG-0000	Moderate	Intent Strength	Moderate		Moderate intent signal
+IG-3000	IG-0000	Strong	Intent Strength	Strong		Strong intent signal
+IG-4000	IG-0000	Very Strong or Explicit	Intent Strength	Very Strong or Explicit		Very strong or explicit intent signal

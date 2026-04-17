@@ -1,0 +1,32 @@
+Unique ID	Parent ID	Name	Tier 1	Tier 2	Tier 3	Description	Funnel Class
+IS-0000		Intent Stage Taxonomy	Intent Stage Taxonomy			Root node	
+IS-1000	IS-0000	Passive	Intent Stage	Passive		Low-engagement or passive consumption	Upper
+IS-1100	IS-1000	Unaware	Intent Stage	Passive	Unaware	User is not showing active decision intent	Upper
+IS-1200	IS-1000	Casual Consumption	Intent Stage	Passive	Casual Consumption	User is consuming casually	Upper
+IS-2000	IS-0000	Exploration	Intent Stage	Exploration		User is discovering options	Upper
+IS-2100	IS-2000	Topic Exploration	Intent Stage	Exploration	Topic Exploration	User is exploring a topic	Upper
+IS-2200	IS-2000	Option Discovery	Intent Stage	Exploration	Option Discovery	User is discovering possible options	Upper
+IS-3000	IS-0000	Learning	Intent Stage	Learning		User is learning in more detail	Upper-Mid
+IS-3100	IS-3000	Foundational Learning	Intent Stage	Learning	Foundational Learning	Basic learning stage	Upper-Mid
+IS-3200	IS-3000	Detailed Research	Intent Stage	Learning	Detailed Research	Deeper research stage	Upper-Mid
+IS-4000	IS-0000	Comparison	Intent Stage	Comparison		User is evaluating alternatives	Mid
+IS-4100	IS-4000	Feature Comparison	Intent Stage	Comparison	Feature Comparison	User is comparing features	Mid
+IS-4200	IS-4000	Provider Comparison	Intent Stage	Comparison	Provider Comparison	User is comparing providers	Mid
+IS-5000	IS-0000	Evaluation	Intent Stage	Evaluation		User is narrowing choices	Mid-Low
+IS-5100	IS-5000	Shortlisting	Intent Stage	Evaluation	Shortlisting	User is creating a shortlist	Mid-Low
+IS-5200	IS-5000	Fit Assessment	Intent Stage	Evaluation	Fit Assessment	User is checking fit	Mid-Low
+IS-6000	IS-0000	Planning	Intent Stage	Planning		User is planning logistics, timing, or budget	Mid-Low
+IS-6100	IS-6000	Budget and Timeline Planning	Intent Stage	Planning	Budget and Timeline Planning	User is planning budget or timing	Mid-Low
+IS-6200	IS-6000	Logistics Planning	Intent Stage	Planning	Logistics Planning	User is planning logistics	Mid-Low
+IS-7000	IS-0000	Selection	Intent Stage	Selection		User is close to choosing	Lower
+IS-7100	IS-7000	Preferred Option Selection	Intent Stage	Selection	Preferred Option Selection	User has a preferred option	Lower
+IS-7200	IS-7000	Final Decision Preparation	Intent Stage	Selection	Final Decision Preparation	User is preparing final decision	Lower
+IS-8000	IS-0000	Ready to Act	Intent Stage	Ready to Act		User is showing strong pre-conversion signals	Lower
+IS-8100	IS-8000	High Purchase Readiness	Intent Stage	Ready to Act	High Purchase Readiness	User is highly ready to purchase	Lower
+IS-8200	IS-8000	High Booking or Contact Readiness	Intent Stage	Ready to Act	High Booking or Contact Readiness	User is highly ready to contact or book	Lower
+IS-9000	IS-0000	Acting	Intent Stage	Acting		User is converting or taking the target action	Lower
+IS-9100	IS-9000	Transaction or Booking	Intent Stage	Acting	Transaction or Booking	User is booking or transacting	Lower
+IS-9200	IS-9000	Form Fill Contact or Application	Intent Stage	Acting	Form Fill Contact or Application	User is submitting details	Lower
+IS-A000	IS-0000	Post Action	Intent Stage	Post Action		User has likely converted and is now managing	Post-conversion
+IS-A100	IS-A000	Usage or Ownership	Intent Stage	Post Action	Usage or Ownership	User already owns or uses	Post-conversion
+IS-A200	IS-A000	Retention Renewal or Support	Intent Stage	Post Action	Retention Renewal or Support	User is retaining, renewing, or seeking support	Post-conversion

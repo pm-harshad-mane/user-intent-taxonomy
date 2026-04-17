@@ -1,0 +1,6 @@
+Framework Row ID	Intent Pattern ID	Intent Pattern Name	Intent Domain ID	Intent Domain Name	Intent Modifier IDs	Mapped Content Taxonomy IDs	Mapped Audience Taxonomy IDs	Mapped Ad Product Taxonomy IDs	Mapping Notes
+MAP-0001	IP-6110	Brand Comparison	ID-2000	Automotive	IM-3000				Brand-level comparison in auto
+MAP-0002	IP-5210	Insurance Quote	ID-9000	Insurance	IM-5000|IM-6000				Quote-seeking with urgency and affordability
+MAP-0003	IP-2310	Demo Request	ID-J000	Business and B2B Solutions	IM-4000				B2B sales lead pattern
+MAP-0004	IP-3110	Flight Booking	ID-3000	Travel	IM-2000|IM-5000				Travel booking with locality and urgency
+MAP-0005	IP-C210	Return or Refund	ID-1000	Retail and Consumer Goods					Post-purchase support

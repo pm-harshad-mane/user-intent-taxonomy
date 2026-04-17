@@ -1,0 +1,6 @@
+Unique ID	Parent ID	Name	Tier 1	Tier 2	Tier 3	Description
+PU-0000		Performance Utility Taxonomy	Performance Utility Taxonomy			Root node
+PU-1000	PU-0000	High	Performance Utility	High		High monetization and execution value
+PU-2000	PU-0000	Medium	Performance Utility	Medium		Useful but conditional
+PU-3000	PU-0000	Low	Performance Utility	Low		Limited direct performance utility
+PU-4000	PU-0000	Primarily Analytical	Performance Utility	Primarily Analytical		Mainly for reporting or enrichment

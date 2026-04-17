@@ -1,4 +1,7 @@
-# user-intent-taxonomy
+# User Intent Taxonomy
+
+<img width="2752" height="1536" alt="unnamed (6)" src="https://github.com/user-attachments/assets/c4bed028-5026-4c15-bb03-dd7b235c6824" />
+
 
 A taxonomy framework for standardizing **user intent inferred from consumed content**, designed for use in **programmatic advertising, contextual targeting, performance campaign execution, audience enrichment, reporting, deal packaging, and downstream ML classification**.
 

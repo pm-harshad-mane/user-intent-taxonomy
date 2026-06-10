@@ -4,6 +4,9 @@ This folder contains sample classified outputs that show how the framework can b
 
 ## Files
 
+- `sample_classifications.md`
+  Human-readable example classifications for review and discussion.
+
 - `sample_classifications.jsonl`  
   One JSON object per line. Good for ML pipelines, API examples, and ingestion tests.
 
@@ -13,6 +16,7 @@ This folder contains sample classified outputs that show how the framework can b
 ## Notes
 
 - These are illustrative examples, not benchmark labels.
+- The TSV and JSONL examples follow `../User Intent Taxonomies/User Intent Taxonomy 1.0 - Classification Schema.tsv`; fields such as mapped taxonomy IDs and `rationale` are included but may be blank in these samples.
 - Real implementations should add:
   - source URL or content metadata
   - confidence calibration logic

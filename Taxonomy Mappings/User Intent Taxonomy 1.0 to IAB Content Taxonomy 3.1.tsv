@@ -1,0 +1,164 @@
+Mapping Row ID	User Intent Component	User Intent IDs	User Intent Names	IAB Content Taxonomy Version	IAB Content Candidate IDs	IAB Content Candidate Names	Relationship Type	Mapping Confidence	Review Status	Mapping Notes
+UIT-C-0001	Intent Domain	ID-1000	Retail and Consumer Goods	3.1		Shopping and Consumer Products	Adjacent	Medium	Needs validation	IAB content taxonomy is topical; retail intent domains often span shopping, product, and consumer lifestyle content.
+UIT-C-0002	Intent Domain	ID-1100	Apparel and Accessories	3.1		Style & Fashion	Adjacent	Medium	Needs validation	Closest content family is fashion-oriented topical content rather than a commerce taxonomy.
+UIT-C-0003	Intent Domain	ID-1110	Clothing	3.1		Style & Fashion / Clothing	Adjacent	Medium	Needs validation	Clothing intent maps best to fashion or apparel-related topical content.
+UIT-C-0004	Intent Domain	ID-1120	Footwear and Bags	3.1		Style & Fashion / Shoes and Accessories	Adjacent	Low	Needs validation	Closest fit is fashion and accessory-related content.
+UIT-C-0005	Intent Domain	ID-1200	Home and Everyday Goods	3.1		Home & Garden / House and Home	Adjacent	Medium	Needs validation	Home-goods shopping intent maps to home-oriented topical content rather than explicit commerce state.
+UIT-C-0006	Intent Domain	ID-1210	Home Essentials	3.1		Home & Garden	Adjacent	Medium	Needs validation	Home essentials are generally represented as home topic content, not as shopping posture.
+UIT-C-0007	Intent Domain	ID-1220	Baby and Pet Supplies	3.1		Pets / Parenting / Family	Adjacent	Low	Needs validation	Baby and pet supply intent may touch multiple topical families and needs closer review.
+UIT-C-0008	Intent Domain	ID-2000	Automotive	3.1	1	Automotive	Direct	High	Proposed	Strong topical overlap. Use content taxonomy for topic and user intent taxonomy for behavioral posture.
+UIT-C-0009	Intent Domain	ID-2100	Vehicle Purchase and Ownership	3.1	30	Auto Buying and Selling	Direct	High	Proposed	Vehicle purchase and ownership intent aligns well with automotive shopping content.
+UIT-C-0010	Intent Domain	ID-2110	New and Used Vehicles	3.1	30	Auto Buying and Selling	Direct	High	Proposed	Vehicle shopping has a clear automotive-buying topical analogue.
+UIT-C-0011	Intent Domain	ID-2120	Parts Service and Accessories	3.1	32|34	Auto Parts|Auto Repair	Direct	High	Proposed	Parts and service content is directly represented in automotive topical content.
+UIT-C-0012	Intent Domain	ID-2200	Auto Finance and Insurance	3.1	31	Auto Insurance	Adjacent	Medium	Proposed	Auto finance and insurance spans multiple financial topics; auto insurance is the clearest current content analogue.
+UIT-C-0013	Intent Domain	ID-2210	Leasing and Financing	3.1	30	Auto Buying and Selling	Adjacent	Medium	Proposed	Leasing and financing align with automotive shopping content but remain more commercial than topical.
+UIT-C-0014	Intent Domain	ID-2220	Auto Coverage	3.1	31	Auto Insurance	Direct	High	Proposed	Auto coverage lines up closely with auto insurance topical content.
+UIT-C-0015	Intent Domain	ID-3000	Travel	3.1		Travel	Direct	Medium	Needs validation	Travel topic overlap is straightforward; exact current 3.1 node should be validated.
+UIT-C-0016	Intent Domain	ID-3100	Transportation and Stay	3.1		Travel Transportation and Accommodation	Direct	Medium	Needs validation	Transportation and lodging map naturally to core travel topics.
+UIT-C-0017	Intent Domain	ID-3110	Flights and Trains	3.1		Air Travel / Rail Travel	Direct	Medium	Needs validation	Flight and rail intent aligns closely with transportation travel topics.
+UIT-C-0018	Intent Domain	ID-3120	Hotels and Rentals	3.1		Hotels / Vacation Rentals	Direct	Medium	Needs validation	Lodging intent aligns closely with accommodation content topics.
+UIT-C-0019	Intent Domain	ID-3200	Destinations and Activities	3.1		Travel Destinations and Activities	Direct	Medium	Needs validation	Destinations and activities fit clearly in travel topical content.
+UIT-C-0020	Intent Domain	ID-3210	Destinations	3.1		Travel Destinations	Direct	Medium	Needs validation	Destination discovery is topical travel content.
+UIT-C-0021	Intent Domain	ID-3220	Attractions and Tours	3.1	150	Attractions	Direct	Medium	Proposed	Attractions and tours overlap with travel attraction content; descendant nodes should be validated as needed.
+UIT-C-0022	Intent Domain	ID-4000	Dining	3.1	179	Bars & Restaurants	Adjacent	Medium	Proposed	Dining intent overlaps with restaurant topical content, though the user intent layer captures stronger operational signals.
+UIT-C-0023	Intent Domain	ID-4100	Restaurants and Cafes	3.1	179	Bars & Restaurants	Direct	Medium	Proposed	Restaurants and cafes align closely with attractions-oriented restaurant content.
+UIT-C-0024	Intent Domain	ID-4110	Casual Dining	3.1	179	Bars & Restaurants	Adjacent	Medium	Proposed	Casual dining is likely covered within broader restaurant topical content.
+UIT-C-0025	Intent Domain	ID-4120	Premium Dining	3.1	179	Bars & Restaurants	Adjacent	Medium	Proposed	Premium dining remains a restaurant topical concept rather than a distinct intent state.
+UIT-C-0026	Intent Domain	ID-4200	Food Ordering and Delivery	3.1	179	Bars & Restaurants	Adjacent	Low	Proposed	Food ordering and delivery are adjacent to dining topical content but more operational than aboutness.
+UIT-C-0027	Intent Domain	ID-4210	Takeout	3.1	179	Bars & Restaurants	Adjacent	Low	Proposed	Takeout intent is operationally distinct from topic but still adjacent to restaurant content.
+UIT-C-0028	Intent Domain	ID-4220	Delivery	3.1	179	Bars & Restaurants	Adjacent	Low	Proposed	Delivery intent is operationally distinct from topic but still adjacent to restaurant content.
+UIT-C-0029	Intent Domain	ID-5000	Entertainment and Media	3.1		Entertainment and Media	Direct	Medium	Needs validation	Broad entertainment topic overlap is clear, though exact nodes should be validated.
+UIT-C-0030	Intent Domain	ID-5100	Streaming and Video	3.1		Streaming / Video	Direct	Medium	Needs validation	Streaming and video are topical media concepts.
+UIT-C-0031	Intent Domain	ID-5110	Streaming Platforms	3.1		Streaming Platforms	Adjacent	Medium	Needs validation	Platform-specific streaming intent is more commercial than raw content aboutness.
+UIT-C-0032	Intent Domain	ID-5120	Movies and Shows	3.1		Movies and Television	Direct	Medium	Needs validation	Movies and shows align directly with entertainment content topics.
+UIT-C-0033	Intent Domain	ID-5200	Audio and Publishing	3.1		Audio / Publishing	Direct	Medium	Needs validation	Audio and publishing map cleanly to media topic families.
+UIT-C-0034	Intent Domain	ID-5210	Music and Podcasts	3.1		Music and Podcasts	Direct	Medium	Needs validation	Music and podcast intent aligns directly with audio topical content.
+UIT-C-0035	Intent Domain	ID-5220	Books and Publishing	3.1	42	Books and Literature	Direct	High	Proposed	Books and publishing map closely to books and literature topical content.
+UIT-C-0036	Intent Domain	ID-6000	Gaming	3.1		Gaming	Direct	Medium	Needs validation	Gaming as a top-level topic overlaps directly with the user intent domain.
+UIT-C-0037	Intent Domain	ID-6100	Game Access and Purchase	3.1		Video Games	Direct	Medium	Needs validation	Game-access and purchase content still sits within gaming topical content.
+UIT-C-0038	Intent Domain	ID-6110	Console and PC Games	3.1		Console and PC Games	Direct	Medium	Needs validation	Console and PC game topics are direct topical analogues.
+UIT-C-0039	Intent Domain	ID-6120	Mobile Games and Add Ons	3.1		Mobile Games	Direct	Medium	Needs validation	Mobile game topic overlap is strong.
+UIT-C-0040	Intent Domain	ID-6200	Gameplay and Community	3.1		Gaming Community / Esports / Strategy	Direct	Medium	Needs validation	Gameplay and community content map to gaming topical material.
+UIT-C-0041	Intent Domain	ID-6210	Tips and Strategy	3.1		Gaming Strategy	Direct	Medium	Needs validation	Tips and strategy are topical gaming-support content.
+UIT-C-0042	Intent Domain	ID-6220	Streaming and Esports	3.1		Streaming and Esports	Direct	Medium	Needs validation	Streaming and esports are clearly topical content categories.
+UIT-C-0043	Intent Domain	ID-7000	Technology	3.1		Technology	Direct	Medium	Needs validation	Technology is a clear content topic family.
+UIT-C-0044	Intent Domain	ID-7100	Devices and Hardware	3.1		Technology Hardware	Direct	Medium	Needs validation	Devices and hardware align directly with technology topic content.
+UIT-C-0045	Intent Domain	ID-7110	Phones and Computers	3.1		Phones and Computers	Direct	Medium	Needs validation	Phones and computers are strong topical analogues.
+UIT-C-0046	Intent Domain	ID-7120	Networking and Accessories	3.1		Networking and Accessories	Direct	Medium	Needs validation	Hardware and accessories remain topical technology content.
+UIT-C-0047	Intent Domain	ID-7200	Software and Digital Services	3.1	72	Business I.T.	Adjacent	Medium	Proposed	Software and digital services overlap with technology topics, but often with a more product-evaluation orientation.
+UIT-C-0048	Intent Domain	ID-7210	Consumer Software	3.1		Consumer Software	Adjacent	Medium	Needs validation	Consumer software is topic-like but still more product-oriented in many contexts.
+UIT-C-0049	Intent Domain	ID-7220	Professional Software	3.1	72	Business I.T.	Adjacent	High	Proposed	Professional software maps best to business I.T.-style topical content.
+UIT-C-0050	Intent Domain	ID-8000	Financial Services	3.1	52	Business and Finance	Adjacent	Medium	Proposed	User intent domain is narrower and more commercial than the broader Business and Finance topic family.
+UIT-C-0051	Intent Domain	ID-8100	Banking and Credit	3.1	63	Business Banking & Finance	Adjacent	Medium	Proposed	Banking and credit align best with banking-and-finance topical content.
+UIT-C-0052	Intent Domain	ID-8110	Credit Cards and Loans	3.1	63|66	Business Banking & Finance|Business Loans	Adjacent	Medium	Proposed	Credit cards and loans are commercial financial concepts; closest topical fit is within banking-and-finance content.
+UIT-C-0053	Intent Domain	ID-8120	Checking and Savings	3.1	63	Business Banking & Finance	Adjacent	Low	Proposed	Checking and savings fit best as finance topical content, though consumer orientation remains broader than the user intent domain.
+UIT-C-0054	Intent Domain	ID-8200	Investing and Wealth	3.1		Investing and Wealth	Adjacent	Medium	Needs validation	Investment and wealth content should have topical analogues in current content taxonomy.
+UIT-C-0055	Intent Domain	ID-8210	Brokerage and Trading	3.1		Brokerage and Trading	Adjacent	Medium	Needs validation	Trading and brokerage are financially topical but not necessarily represented exactly as intent domains.
+UIT-C-0056	Intent Domain	ID-8220	Retirement and Wealth Planning	3.1		Retirement and Wealth Planning	Adjacent	Medium	Needs validation	Wealth planning is topical finance content, but still broader than the user intent domain semantics.
+UIT-C-0057	Intent Domain	ID-9000	Insurance	3.1		Insurance	Adjacent	Low	Needs validation	Content taxonomy may include insurance-oriented topical categories, but the exact current 3.1 node should be validated.
+UIT-C-0058	Intent Domain	ID-9100	Personal Coverage	3.1		Insurance	Adjacent	Low	Needs validation	Personal coverage intent is insurance-topic adjacent rather than clearly standardized in content aboutness.
+UIT-C-0059	Intent Domain	ID-9110	Health and Life Coverage	3.1		Health / Life Insurance	Adjacent	Low	Needs validation	Coverage-related financial and health content may overlap, but sensitive review is required.
+UIT-C-0060	Intent Domain	ID-9120	Home and Auto Coverage	3.1	31	Auto Insurance	Adjacent	Low	Proposed	Home and auto coverage spans insurance topical content; auto insurance is a known current analogue.
+UIT-C-0061	Intent Domain	ID-9200	Policy Management and Claims	3.1		Insurance Claims / Policy Management	Adjacent	Low	Needs validation	Post-purchase insurance behavior is often not represented cleanly as topic alone.
+UIT-C-0062	Intent Domain	ID-9210	Claims	3.1		Insurance Claims	Adjacent	Low	Needs validation	Claims behavior is more service-state than pure aboutness.
+UIT-C-0063	Intent Domain	ID-9220	Renewal and Changes	3.1		Insurance Renewal and Changes	Adjacent	Low	Needs validation	Renewal and policy updates are operational states more than stable content topics.
+UIT-C-0064	Intent Domain	ID-A000	Real Estate	3.1		Real Estate	Direct	Medium	Needs validation	Strong topical overlap expected; exact current 3.1 node should be validated.
+UIT-C-0065	Intent Domain	ID-A100	Buying and Renting	3.1		Real Estate Sales and Rentals	Direct	Medium	Needs validation	Buying and renting are core real-estate topics.
+UIT-C-0066	Intent Domain	ID-A110	Home Purchase	3.1		Home Purchase	Direct	Medium	Needs validation	Home-purchase topical overlap is expected.
+UIT-C-0067	Intent Domain	ID-A120	Rentals	3.1		Rentals	Direct	Medium	Needs validation	Rental topical overlap is expected.
+UIT-C-0068	Intent Domain	ID-A200	Ownership and Financing	3.1		Home Ownership / Mortgage	Adjacent	Medium	Needs validation	Ownership and financing combine topical home and mortgage material.
+UIT-C-0069	Intent Domain	ID-A210	Mortgages and Refinance	3.1		Mortgages and Refinance	Adjacent	Medium	Needs validation	Mortgage and refinance are finance-heavy real-estate topics; exact node should be validated.
+UIT-C-0070	Intent Domain	ID-A220	Home Services and Ownership	3.1		Home Services	Adjacent	Medium	Needs validation	Home-services topical content is adjacent to ownership-support intent.
+UIT-C-0071	Intent Domain	ID-B000	Health Care	3.1		Medical Health	Direct	Medium	Needs validation	User intent domain aligns with medical or health topic coverage, though health sensitivity review is still required.
+UIT-C-0072	Intent Domain	ID-B100	Care Discovery	3.1		Medical Services / Providers	Direct	Medium	Needs validation	Provider discovery and treatment discovery fit medical topical content.
+UIT-C-0073	Intent Domain	ID-B110	Providers and Clinics	3.1		Medical Providers and Clinics	Direct	Medium	Needs validation	Provider and clinic topic overlap is strong.
+UIT-C-0074	Intent Domain	ID-B120	Treatments and Procedures	3.1		Treatments and Procedures	Direct	Medium	Needs validation	Treatment topic overlap is strong but sensitive.
+UIT-C-0075	Intent Domain	ID-B200	Medication and Ongoing Care	3.1		Medication and Ongoing Care	Direct	Medium	Needs validation	Medication and care topic overlap is strong but sensitive.
+UIT-C-0076	Intent Domain	ID-B210	Prescriptions	3.1		Prescriptions	Direct	Medium	Needs validation	Prescription content is a plausible direct topical analogue.
+UIT-C-0077	Intent Domain	ID-B220	Therapy and Ongoing Support	3.1		Therapy and Ongoing Support	Adjacent	Medium	Needs validation	Ongoing support is topical health content but also reflects service-state dynamics.
+UIT-C-0078	Intent Domain	ID-C000	Wellness and Beauty	3.1		Wellness / Beauty	Adjacent	Medium	Needs validation	Wellness and beauty likely span multiple topical families in content taxonomy.
+UIT-C-0079	Intent Domain	ID-C100	Fitness and Nutrition	3.1		Fitness and Nutrition	Adjacent	Medium	Needs validation	Fitness and nutrition are topical lifestyle concepts.
+UIT-C-0080	Intent Domain	ID-C110	Fitness Programs	3.1		Fitness Programs	Adjacent	Medium	Needs validation	Fitness-program intent is topic-adjacent but often commercially shaped.
+UIT-C-0081	Intent Domain	ID-C120	Diet and Supplements	3.1		Diet and Supplements	Adjacent	Medium	Needs validation	Diet and supplement intent overlaps topical wellness content with potential sensitivity.
+UIT-C-0082	Intent Domain	ID-C200	Beauty and Personal Care	3.1		Beauty and Personal Care	Adjacent	Medium	Needs validation	Beauty and personal care align with lifestyle topical content.
+UIT-C-0083	Intent Domain	ID-C210	Skincare and Cosmetics	3.1		Skincare and Cosmetics	Adjacent	Medium	Needs validation	Skincare and cosmetic intent aligns with beauty topical content.
+UIT-C-0084	Intent Domain	ID-C220	Grooming and Services	3.1		Grooming and Services	Adjacent	Medium	Needs validation	Grooming services combine lifestyle topic and service intent.
+UIT-C-0085	Intent Domain	ID-D000	Careers	3.1		Careers	Direct	Medium	Needs validation	Career-oriented topic overlap is expected.
+UIT-C-0086	Intent Domain	ID-D100	Job Search and Applications	3.1		Job Search	Direct	Medium	Needs validation	Job search and applications are clear topical analogues.
+UIT-C-0087	Intent Domain	ID-D110	Job Discovery	3.1		Job Discovery	Direct	Medium	Needs validation	Job-discovery topics should map directly.
+UIT-C-0088	Intent Domain	ID-D120	Applications and Interviews	3.1		Applications and Interviews	Adjacent	Medium	Needs validation	Application and interview content is topic-like but highly process-oriented.
+UIT-C-0089	Intent Domain	ID-D200	Professional Growth	3.1		Professional Growth	Adjacent	Medium	Needs validation	Professional growth spans careers, education, and business topical content.
+UIT-C-0090	Intent Domain	ID-D210	Resume and Skills	3.1		Resume and Skills	Adjacent	Medium	Needs validation	Resume and skill-building are career-development topical concepts.
+UIT-C-0091	Intent Domain	ID-D220	Career Change	3.1		Career Change	Adjacent	Medium	Needs validation	Career change is more stateful than simple content aboutness but still topic-adjacent.
+UIT-C-0092	Intent Domain	ID-E000	Education	3.1		Education	Direct	Medium	Needs validation	Strong topical overlap expected; validate exact current 3.1 node and descendants.
+UIT-C-0093	Intent Domain	ID-E100	Academic Programs	3.1		Academic Programs	Direct	Medium	Needs validation	Programs and degrees are straightforward education topics.
+UIT-C-0094	Intent Domain	ID-E110	Schools and Degrees	3.1		Schools and Degrees	Direct	Medium	Needs validation	School and degree programs are likely direct topical analogues.
+UIT-C-0095	Intent Domain	ID-E120	Certifications and Courses	3.1		Certifications and Courses	Direct	Medium	Needs validation	Courses and certifications are clear education topics.
+UIT-C-0096	Intent Domain	ID-E200	Admissions and Funding	3.1		Admissions and Funding	Adjacent	Medium	Needs validation	Admissions and aid are process-oriented education topics.
+UIT-C-0097	Intent Domain	ID-E210	Applications	3.1		Applications	Adjacent	Medium	Needs validation	Applications are more process-oriented than general education content.
+UIT-C-0098	Intent Domain	ID-E220	Tuition and Aid	3.1		Tuition and Aid	Adjacent	Medium	Needs validation	Tuition and aid align with education funding topics.
+UIT-C-0099	Intent Domain	ID-F000	Parenting and Family	3.1		Family and Relationships	Adjacent	Medium	Needs validation	Closest fit is likely family-oriented content, but the user intent domain is more operational and service-oriented.
+UIT-C-0100	Intent Domain	ID-F100	Family Products and Services	3.1		Family Products and Services	Adjacent	Medium	Needs validation	Family topic overlap is present, though products and services are more commercial than content categories.
+UIT-C-0101	Intent Domain	ID-F110	Baby and Child Products	3.1		Parenting / Child Products	Adjacent	Medium	Needs validation	Baby and child product intent overlaps parenting and family topical content.
+UIT-C-0102	Intent Domain	ID-F120	Family Activities and Services	3.1		Family Activities and Services	Adjacent	Medium	Needs validation	Family activities have a plausible topical analogue, but services remain more operational.
+UIT-C-0103	Intent Domain	ID-F200	Parenting Guidance and Support	3.1		Parenting Guidance and Support	Adjacent	Medium	Needs validation	Guidance and support blend family topic with user-state.
+UIT-C-0104	Intent Domain	ID-F210	Parenting Advice	3.1		Parenting Advice	Adjacent	Medium	Needs validation	Parenting advice is topical content rather than user intent, but it is a close contextual analogue.
+UIT-C-0105	Intent Domain	ID-F220	Family Support Solutions	3.1		Family Support Solutions	Adjacent	Medium	Needs validation	Support solutions are more service-oriented than topic-only.
+UIT-C-0106	Intent Domain	ID-G000	Home and Garden	3.1		Home & Garden	Direct	Medium	Needs validation	Home and garden is a common topical content family.
+UIT-C-0107	Intent Domain	ID-G100	Furnishing and Decor	3.1		Home Decor and Furnishings	Adjacent	Medium	Needs validation	Furnishings and decor are likely topic-adjacent within home content.
+UIT-C-0108	Intent Domain	ID-G110	Furniture and Decor	3.1		Furniture and Decor	Adjacent	Medium	Needs validation	Furniture and decor intent aligns with home design content.
+UIT-C-0109	Intent Domain	ID-G120	Appliances and Fixtures	3.1		Appliances and Fixtures	Adjacent	Medium	Needs validation	Appliance and fixture shopping intent maps to home-improvement topical content.
+UIT-C-0110	Intent Domain	ID-G200	Repair Renovation and Services	3.1		Home Repair and Renovation	Adjacent	Medium	Needs validation	Repair and renovation intent overlaps home-improvement topical content.
+UIT-C-0111	Intent Domain	ID-G210	Repair and Maintenance	3.1		Repair and Maintenance	Adjacent	Medium	Needs validation	Repair and maintenance are likely represented within home topic families.
+UIT-C-0112	Intent Domain	ID-G220	Remodel and Improvement	3.1		Remodel and Improvement	Adjacent	Medium	Needs validation	Remodeling and improvement are strong home-improvement topical concepts.
+UIT-C-0113	Intent Domain	ID-H000	Professional Services	3.1	52|53	Business and Finance|Business	Adjacent	Low	Proposed	Closest topical overlap is business-oriented content, but many local service cases will not fit neatly.
+UIT-C-0114	Intent Domain	ID-H100	Home and Local Services	3.1		Local Services / Home Services	Adjacent	Low	Needs validation	Home and local services are more operational than standard content categories.
+UIT-C-0115	Intent Domain	ID-H110	Contractors and Repair Services	3.1		Contractors and Repair Services	Adjacent	Low	Needs validation	Service-provider intent is not purely aboutness-based.
+UIT-C-0116	Intent Domain	ID-H120	Cleaning and Personal Services	3.1		Cleaning and Personal Services	Adjacent	Low	Needs validation	Personal and cleaning services are service-intent concepts more than content categories.
+UIT-C-0117	Intent Domain	ID-H200	Advisory and Consulting Services	3.1	53	Business	Adjacent	Medium	Proposed	Advisory and consulting services align loosely with business topical content.
+UIT-C-0118	Intent Domain	ID-H210	Financial Advisors and Tax Services	3.1	63	Business Banking & Finance	Adjacent	Low	Proposed	Financial advisory and tax content align partly with finance topical material.
+UIT-C-0119	Intent Domain	ID-H220	Business and Strategy Consulting	3.1	53	Business	Adjacent	Medium	Proposed	Business consulting aligns loosely with business topical content.
+UIT-C-0120	Intent Domain	ID-I000	Telecom and Utilities	3.1		Technology / Home Utilities	Adjacent	Low	Needs validation	Telecom and utilities span multiple content families and need explicit validation.
+UIT-C-0121	Intent Domain	ID-I100	Connectivity Services	3.1		Connectivity Services	Adjacent	Low	Needs validation	Connectivity is more service-product oriented than classical content topic.
+UIT-C-0122	Intent Domain	ID-I110	Mobile Plans	3.1		Mobile Plans	Adjacent	Low	Needs validation	Mobile-plan intent is service-evaluation rather than topic-only.
+UIT-C-0123	Intent Domain	ID-I120	Internet and Bundles	3.1		Internet and Bundles	Adjacent	Low	Needs validation	Internet bundles are service-shopping states more than content-aboutness.
+UIT-C-0124	Intent Domain	ID-I200	Utility Services	3.1		Utilities	Adjacent	Low	Needs validation	Utility services are likely not deeply represented as topical content.
+UIT-C-0125	Intent Domain	ID-I210	Energy Providers	3.1		Energy Providers	Adjacent	Low	Needs validation	Energy-provider intent is service-oriented and regulatory-sensitive.
+UIT-C-0126	Intent Domain	ID-I220	Utility Account Services	3.1		Utility Account Services	Adjacent	Low	Needs validation	Utility account management is operational state, not standard topical content.
+UIT-C-0127	Intent Domain	ID-J000	Business and B2B Solutions	3.1	52|53	Business and Finance|Business	Adjacent	Medium	Proposed	Useful for B2B solution pages, but content taxonomy still captures topic rather than immediate commercial state.
+UIT-C-0128	Intent Domain	ID-J100	Software and SaaS	3.1	72	Business I.T.	Adjacent	High	Proposed	Software and SaaS align closely with business technology topical content.
+UIT-C-0129	Intent Domain	ID-J110	CRM Sales and Marketing	3.1	72	Business I.T.	Adjacent	High	Proposed	CRM, sales, and marketing software fit business I.T. content.
+UIT-C-0130	Intent Domain	ID-J120	Finance HR and Operations Software	3.1	72	Business I.T.	Adjacent	High	Proposed	Operational software aligns with business I.T. content.
+UIT-C-0131	Intent Domain	ID-J200	Infrastructure and Data	3.1	72	Business I.T.	Adjacent	High	Proposed	Infrastructure and data overlap strongly with business technology topical content.
+UIT-C-0132	Intent Domain	ID-J210	Cloud and Security	3.1	72	Business I.T.	Adjacent	High	Proposed	Cloud and security are well represented as technology/business I.T. topics.
+UIT-C-0133	Intent Domain	ID-J220	Data AI and Analytics	3.1	72	Business I.T.	Adjacent	High	Proposed	Data, AI, and analytics align strongly with business technology topical content.
+UIT-C-0134	Intent Domain	ID-K000	Nonprofit and Causes	3.1		Society / Causes / Philanthropy	Adjacent	Low	Needs validation	Cause-oriented domains are value and participation concepts more than direct content-topic matches.
+UIT-C-0135	Intent Domain	ID-K100	Cause Discovery	3.1		Charity and Causes	Adjacent	Low	Needs validation	Cause discovery likely maps to social-good topical content if present.
+UIT-C-0136	Intent Domain	ID-K110	Charities and Donations	3.1		Charities and Donations	Adjacent	Low	Needs validation	Donation and charity concepts are topical but not always deeply hierarchical.
+UIT-C-0137	Intent Domain	ID-K120	Volunteer Opportunities	3.1		Volunteer Opportunities	Adjacent	Low	Needs validation	Volunteer opportunity intent is more action-oriented than topical.
+UIT-C-0138	Intent Domain	ID-K200	Cause Participation	3.1		Cause Participation	Adjacent	Low	Needs validation	Participation states are more operational than topic-only.
+UIT-C-0139	Intent Domain	ID-K210	Donations	3.1		Donations	Adjacent	Low	Needs validation	Donation behavior is more action-oriented than standard content categorization.
+UIT-C-0140	Intent Domain	ID-K220	Volunteer Support	3.1		Volunteer Support	Adjacent	Low	Needs validation	Volunteer support is operationally oriented rather than aboutness-based.
+UIT-C-0141	Intent Domain	ID-L000	Legal and Compliance	3.1		Law / Business Compliance	Adjacent	Low	Needs validation	Legal and compliance spans law, business, and regulatory topics.
+UIT-C-0142	Intent Domain	ID-L100	Personal Legal Services	3.1		Personal Legal Services	Adjacent	Low	Needs validation	Legal-service intent is more service-seeking than topic-only.
+UIT-C-0143	Intent Domain	ID-L110	Family and Civil Matters	3.1		Family and Civil Matters	Adjacent	Low	Needs validation	Family and civil legal matters are topic-adjacent but service-heavy.
+UIT-C-0144	Intent Domain	ID-L120	Injury and Claims	3.1		Injury and Claims	Adjacent	Low	Needs validation	Claims and injury matters mix legal, insurance, and support state.
+UIT-C-0145	Intent Domain	ID-L200	Business Legal and Compliance	3.1	53	Business	Adjacent	Low	Proposed	Business legal and compliance content aligns loosely with business topical content.
+UIT-C-0146	Intent Domain	ID-L210	Contracts and Corporate Matters	3.1	53	Business	Adjacent	Low	Proposed	Contracts and corporate matters are business/legal topical concepts.
+UIT-C-0147	Intent Domain	ID-L220	Privacy Risk and Compliance	3.1	53	Business	Adjacent	Low	Proposed	Privacy, risk, and compliance align with business and regulatory topical content.
+UIT-C-0148	Intent Domain	ID-M000	Community and Social	3.1		Society / Relationships / Communities	Adjacent	Low	Needs validation	Community and social domains are broader social-interest concepts rather than intent-specific topics.
+UIT-C-0149	Intent Domain	ID-M100	Local Community	3.1		Local Community	Adjacent	Low	Needs validation	Local community overlap is plausible but not well standardized as a content family.
+UIT-C-0150	Intent Domain	ID-M110	Local Groups	3.1		Local Groups	Adjacent	Low	Needs validation	Local groups are socially topical but not likely a core content taxonomy branch.
+UIT-C-0151	Intent Domain	ID-M120	Events and Meetups	3.1		Events and Meetups	Adjacent	Low	Needs validation	Events and meetups are event-state and community concepts more than stable content taxonomy branches.
+UIT-C-0152	Intent Domain	ID-M200	Online Communities	3.1		Online Communities	Adjacent	Low	Needs validation	Online communities are social-interest concepts more than strict content-aboutness.
+UIT-C-0153	Intent Domain	ID-M210	Interest Communities	3.1		Interest Communities	Adjacent	Low	Needs validation	Interest communities align loosely with hobby or social topic families.
+UIT-C-0154	Intent Domain	ID-M220	Support Communities	3.1		Support Communities	Adjacent	Low	Needs validation	Support communities are strongly state-based and community-oriented rather than standard content categories.
+UIT-C-0155	Intent Pattern	IP-6000	Comparison Intent	3.1			No direct equivalent	High	Proposed	Content taxonomy does not standardize user comparison behavior by itself.
+UIT-C-0156	Intent Pattern	IP-1000	Purchase Intent	3.1			No direct equivalent	High	Proposed	Content taxonomy can describe the topic being consumed, but not whether the user is in a purchase posture.
+UIT-C-0157	Intent Pattern	IP-2310	Demo Request	3.1			No direct equivalent	High	Proposed	A demo request is an action-oriented intent pattern rather than a topic category.
+UIT-C-0158	Intent Pattern	IP-C220	Claim Complaint or Issue Resolution	3.1			No direct equivalent	High	Proposed	Support or post-transaction issue state is not a content-aboutness concept.
+UIT-C-0159	Intent Modifier	IM-2000	Local	3.1			No direct equivalent	High	Proposed	Locality can sharpen intent but is not a stable content category in the same sense.
+UIT-C-0160	Intent Modifier	IM-5000	Urgency	3.1			No direct equivalent	High	Proposed	Urgency is a behavioral qualifier, not a content topic.
+UIT-C-0161	Commercial Readiness	CR-3000	Transaction Readiness	3.1			No direct equivalent	High	Proposed	Content taxonomy does not indicate whether the user is near transaction.
+UIT-C-0162	Example Combination	IP-1220|ID-2000|IM-1000|IM-2000|IM-5000|IM-6000	Ready to Buy Major Item|Automotive|Deal Seeking|Local|Urgency|Budget Conscious	3.1	1|30	Automotive|Auto Buying and Selling	Adjacent	Medium	Proposed	A lower-funnel automotive intent can map to automotive topical content, but the lower-funnel posture itself is not represented.
+UIT-C-0163	Example Combination	IP-8110|ID-2000	Introductory Learning|Automotive	3.1	1	Automotive	Adjacent	High	Proposed	Good example of why content and intent should both be retained: the topic overlaps fully while the intent remains informational.

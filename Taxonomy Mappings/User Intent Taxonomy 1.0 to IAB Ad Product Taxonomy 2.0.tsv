@@ -1,0 +1,164 @@
+Mapping Row ID	User Intent Component	User Intent IDs	User Intent Names	IAB Ad Product Taxonomy Version	IAB Ad Product Candidate IDs	IAB Ad Product Candidate Names	Relationship Type	Mapping Confidence	Review Status	Mapping Notes
+UIT-P-0001	Intent Domain	ID-1000	Retail and Consumer Goods	2.0	1494	Retail	Direct	High	Proposed	Retail domain overlaps directly with the ad product family.
+UIT-P-0002	Intent Domain	ID-1100	Apparel and Accessories	2.0		Apparel and Accessories	Direct	Medium	Needs validation	Strong product-family overlap expected for apparel and accessories.
+UIT-P-0003	Intent Domain	ID-1110	Clothing	2.0		Clothing	Direct	Medium	Needs validation	Clothing intent should map directly to apparel product categories.
+UIT-P-0004	Intent Domain	ID-1120	Footwear and Bags	2.0		Footwear and Bags	Direct	Medium	Needs validation	Footwear and bag shopping intent should map directly to product-family categories.
+UIT-P-0005	Intent Domain	ID-1200	Home and Everyday Goods	2.0		Home Goods	Direct	Medium	Needs validation	Home-goods intent aligns with retail product families.
+UIT-P-0006	Intent Domain	ID-1210	Home Essentials	2.0		Home Essentials	Direct	Medium	Needs validation	Home-essential shopping intent aligns with retail product families.
+UIT-P-0007	Intent Domain	ID-1220	Baby and Pet Supplies	2.0		Baby Products|Pet Products	Adjacent	Medium	Needs validation	Baby and pet supplies may span multiple ad product families.
+UIT-P-0008	Intent Domain	ID-2000	Automotive	2.0	1551	Vehicles	Direct	High	Proposed	Strong overlap at the product/service family level.
+UIT-P-0009	Intent Domain	ID-2100	Vehicle Purchase and Ownership	2.0	1551	Vehicles	Direct	High	Proposed	Vehicle purchase and ownership intent aligns directly with vehicle product categories.
+UIT-P-0010	Intent Domain	ID-2110	New and Used Vehicles	2.0	1551	Vehicles	Direct	High	Proposed	New and used vehicles map directly to vehicle product families.
+UIT-P-0011	Intent Domain	ID-2120	Parts Service and Accessories	2.0	1556|1558|1560	Automotive Products|Automotive Parts and Accessories|Automotive Services	Direct	High	Proposed	Parts, accessories, and service intent aligns well with ad product families.
+UIT-P-0012	Intent Domain	ID-2200	Auto Finance and Insurance	2.0	1552	Automotive Leasing	Adjacent	Medium	Proposed	Auto finance and insurance spans multiple ad product areas; automotive leasing is the clearest current direct fit.
+UIT-P-0013	Intent Domain	ID-2210	Leasing and Financing	2.0	1552	Automotive Leasing	Direct	High	Proposed	Useful when the commercial domain is explicitly vehicle leasing.
+UIT-P-0014	Intent Domain	ID-2220	Auto Coverage	2.0		Automotive Insurance	Adjacent	Low	Needs validation	Coverage-related automotive products likely exist, but the exact current 2.0 node should be validated.
+UIT-P-0015	Intent Domain	ID-3000	Travel	2.0	1529	Travel and Tourism	Direct	High	Proposed	Strong overlap at the domain level.
+UIT-P-0016	Intent Domain	ID-3100	Transportation and Stay	2.0	1529	Travel and Tourism	Direct	High	Proposed	Transportation and stay intent aligns closely with the broader travel family.
+UIT-P-0017	Intent Domain	ID-3110	Flights and Trains	2.0	1537|1539	Air Travel|Rail Travel	Direct	High	Proposed	Transport-specific travel intent aligns closely with ad product categories.
+UIT-P-0018	Intent Domain	ID-3120	Hotels and Rentals	2.0	1530|1533|1536	Accommodations|Hotels and Resorts|Vacation Rentals	Direct	High	Proposed	Lodging intent aligns closely with travel accommodation products.
+UIT-P-0019	Intent Domain	ID-3200	Destinations and Activities	2.0	1529	Travel and Tourism	Adjacent	Medium	Proposed	Destinations and activities fit travel product families, though some rows also behave like content topics.
+UIT-P-0020	Intent Domain	ID-3210	Destinations	2.0	1529	Travel and Tourism	Adjacent	Medium	Proposed	Destination discovery often maps to travel demand rather than a narrower ad product node.
+UIT-P-0021	Intent Domain	ID-3220	Attractions and Tours	2.0		Tours and Attractions	Adjacent	Medium	Needs validation	Attractions and tours likely map to travel experiences, but the exact node should be validated.
+UIT-P-0022	Intent Domain	ID-4000	Dining	2.0		Restaurants and Dining	Direct	Medium	Needs validation	Dining domain likely aligns with restaurant or food-service ad product branches.
+UIT-P-0023	Intent Domain	ID-4100	Restaurants and Cafes	2.0		Restaurants and Cafes	Direct	Medium	Needs validation	Restaurant and cafe intent should map directly to food-service product categories.
+UIT-P-0024	Intent Domain	ID-4110	Casual Dining	2.0		Casual Dining	Direct	Medium	Needs validation	Casual dining intent should map directly to restaurant product families.
+UIT-P-0025	Intent Domain	ID-4120	Premium Dining	2.0		Premium Dining	Direct	Medium	Needs validation	Premium dining intent should map directly to restaurant product families.
+UIT-P-0026	Intent Domain	ID-4200	Food Ordering and Delivery	2.0		Food Ordering and Delivery	Direct	Medium	Needs validation	Ordering and delivery intent should map to food-service and delivery products.
+UIT-P-0027	Intent Domain	ID-4210	Takeout	2.0		Takeout	Adjacent	Medium	Needs validation	Takeout is operationally narrower than most ad product nodes but still within dining products.
+UIT-P-0028	Intent Domain	ID-4220	Delivery	2.0		Delivery	Adjacent	Medium	Needs validation	Delivery is operationally narrower than most ad product nodes but still within dining products.
+UIT-P-0029	Intent Domain	ID-5000	Entertainment and Media	2.0		Entertainment and Media	Direct	Medium	Needs validation	Entertainment domain likely aligns with media and entertainment product families.
+UIT-P-0030	Intent Domain	ID-5100	Streaming and Video	2.0		Streaming and Video Services	Direct	Medium	Needs validation	Streaming and video domain should map to media-service product families.
+UIT-P-0031	Intent Domain	ID-5110	Streaming Platforms	2.0		Streaming Services	Direct	Medium	Needs validation	Platform intent is still fundamentally about streaming service products.
+UIT-P-0032	Intent Domain	ID-5120	Movies and Shows	2.0		Movies and Shows	Adjacent	Medium	Needs validation	Movie and show intent may map to content subscriptions or entertainment services rather than simple products.
+UIT-P-0033	Intent Domain	ID-5200	Audio and Publishing	2.0		Audio and Publishing Services	Direct	Medium	Needs validation	Audio and publishing intent likely maps to media-service product families.
+UIT-P-0034	Intent Domain	ID-5210	Music and Podcasts	2.0		Music and Podcast Services	Direct	Medium	Needs validation	Music and podcast intent likely maps to media-service product families.
+UIT-P-0035	Intent Domain	ID-5220	Books and Publishing	2.0		Books and Publishing	Direct	Medium	Needs validation	Books and publishing intent likely maps to media or retail product families.
+UIT-P-0036	Intent Domain	ID-6000	Gaming	2.0		Gaming	Direct	Medium	Needs validation	Gaming domain likely aligns directly with game and gaming-service product families.
+UIT-P-0037	Intent Domain	ID-6100	Game Access and Purchase	2.0		Games	Direct	Medium	Needs validation	Game-access and purchase align directly with game product categories.
+UIT-P-0038	Intent Domain	ID-6110	Console and PC Games	2.0		Console and PC Games	Direct	Medium	Needs validation	Console and PC games should have a direct ad product analogue.
+UIT-P-0039	Intent Domain	ID-6120	Mobile Games and Add Ons	2.0		Mobile Games	Direct	Medium	Needs validation	Mobile games and add-ons should have a direct ad product analogue.
+UIT-P-0040	Intent Domain	ID-6200	Gameplay and Community	2.0		Gaming Community and Services	Adjacent	Medium	Needs validation	Gameplay improvement and community products may exist but are broader than standard product families.
+UIT-P-0041	Intent Domain	ID-6210	Tips and Strategy	2.0		Gaming Tips and Strategy Services	Adjacent	Low	Needs validation	Strategy content is often more content-like than product-like.
+UIT-P-0042	Intent Domain	ID-6220	Streaming and Esports	2.0		Streaming and Esports	Adjacent	Medium	Needs validation	Esports and streaming products may exist but exact 2.0 nodes should be validated.
+UIT-P-0043	Intent Domain	ID-7000	Technology	2.0		Technology	Direct	Medium	Needs validation	Technology domain likely maps directly to multiple ad product families.
+UIT-P-0044	Intent Domain	ID-7100	Devices and Hardware	2.0		Technology Hardware	Direct	Medium	Needs validation	Devices and hardware are strong product-family concepts.
+UIT-P-0045	Intent Domain	ID-7110	Phones and Computers	2.0		Phones and Computers	Direct	Medium	Needs validation	Phones and computers should map directly to device product categories.
+UIT-P-0046	Intent Domain	ID-7120	Networking and Accessories	2.0		Networking and Accessories	Direct	Medium	Needs validation	Accessories and networking products should map directly to hardware families.
+UIT-P-0047	Intent Domain	ID-7200	Software and Digital Services	2.0		Software and Digital Services	Direct	Medium	Needs validation	Software and digital services likely map directly to ad product families.
+UIT-P-0048	Intent Domain	ID-7210	Consumer Software	2.0		Consumer Software	Direct	Medium	Needs validation	Consumer software should map directly to software product families.
+UIT-P-0049	Intent Domain	ID-7220	Professional Software	2.0		Business Software	Direct	Medium	Needs validation	Professional software should map directly to business-software product families.
+UIT-P-0050	Intent Domain	ID-8000	Financial Services	2.0		Financial Services	Direct	Medium	Needs validation	Financial services likely map directly to finance product families.
+UIT-P-0051	Intent Domain	ID-8100	Banking and Credit	2.0		Banking and Credit	Direct	Medium	Needs validation	Banking and credit should map directly to finance product categories.
+UIT-P-0052	Intent Domain	ID-8110	Credit Cards and Loans	2.0		Credit Cards and Loans	Direct	Medium	Needs validation	Credit-card and lending products are clear finance product families.
+UIT-P-0053	Intent Domain	ID-8120	Checking and Savings	2.0		Checking and Savings	Direct	Medium	Needs validation	Deposit products should map directly to banking product families.
+UIT-P-0054	Intent Domain	ID-8200	Investing and Wealth	2.0		Investing and Wealth	Direct	Medium	Needs validation	Investing and wealth services should map directly to finance product families.
+UIT-P-0055	Intent Domain	ID-8210	Brokerage and Trading	2.0		Brokerage and Trading	Direct	Medium	Needs validation	Brokerage and trading should map directly to finance product families.
+UIT-P-0056	Intent Domain	ID-8220	Retirement and Wealth Planning	2.0		Retirement and Wealth Planning	Direct	Medium	Needs validation	Retirement and planning services should map directly to finance product families.
+UIT-P-0057	Intent Domain	ID-9000	Insurance	2.0		Insurance	Direct	Low	Needs validation	Insurance products and services likely exist directly, but the exact 2.0 node should be validated.
+UIT-P-0058	Intent Domain	ID-9100	Personal Coverage	2.0		Personal Insurance	Direct	Low	Needs validation	Personal coverage intent should map directly to insurance product families once validated.
+UIT-P-0059	Intent Domain	ID-9110	Health and Life Coverage	2.0		Health and Life Insurance	Direct	Low	Needs validation	Health and life coverage likely map directly to insurance product families, subject to validation and sensitivity review.
+UIT-P-0060	Intent Domain	ID-9120	Home and Auto Coverage	2.0		Home and Auto Insurance	Direct	Low	Needs validation	Home and auto coverage likely map directly to insurance product families once validated.
+UIT-P-0061	Intent Domain	ID-9200	Policy Management and Claims	2.0		Insurance Policy Management and Claims	Adjacent	Low	Needs validation	Policy management and claims are service-state heavy and may not map cleanly to product families.
+UIT-P-0062	Intent Domain	ID-9210	Claims	2.0		Insurance Claims	Adjacent	Low	Needs validation	Claims are more post-purchase service state than ad product.
+UIT-P-0063	Intent Domain	ID-9220	Renewal and Changes	2.0		Insurance Renewal and Changes	Adjacent	Low	Needs validation	Renewal and policy changes are more lifecycle state than ad product.
+UIT-P-0064	Intent Domain	ID-A000	Real Estate	2.0	1482	Real Estate	Direct	High	Proposed	Strong overlap at the domain level.
+UIT-P-0065	Intent Domain	ID-A100	Buying and Renting	2.0	1484|1485	Real Estate Rentals|Real Estate Sales	Direct	High	Proposed	Buying and renting cases align with the obvious real-estate product branches.
+UIT-P-0066	Intent Domain	ID-A110	Home Purchase	2.0	1485	Real Estate Sales	Direct	High	Proposed	Home purchase aligns directly with real-estate sales products.
+UIT-P-0067	Intent Domain	ID-A120	Rentals	2.0	1484	Real Estate Rentals	Direct	High	Proposed	Rental intent aligns directly with rental product families.
+UIT-P-0068	Intent Domain	ID-A200	Ownership and Financing	2.0	1486	Real Estate Services For Owners	Adjacent	Medium	Proposed	Ownership support overlaps, but financing-specific cases may need additional validation.
+UIT-P-0069	Intent Domain	ID-A210	Mortgages and Refinance	2.0		Mortgage and Refinance Services	Direct	Low	Needs validation	Mortgage and refinance product families likely exist, but the exact node should be validated.
+UIT-P-0070	Intent Domain	ID-A220	Home Services and Ownership	2.0	1486	Real Estate Services For Owners	Adjacent	Medium	Proposed	Home-service and ownership support overlap with owner-service families.
+UIT-P-0071	Intent Domain	ID-B000	Health Care	2.0		Health Care Services	Direct	Low	Needs validation	Health care services likely map directly, but exact nodes should be validated carefully due to sensitivity.
+UIT-P-0072	Intent Domain	ID-B100	Care Discovery	2.0		Health Care Discovery Services	Adjacent	Low	Needs validation	Care discovery is partly product-like but also strongly service-state driven.
+UIT-P-0073	Intent Domain	ID-B110	Providers and Clinics	2.0		Providers and Clinics	Direct	Low	Needs validation	Providers and clinics likely map directly to health-service product families.
+UIT-P-0074	Intent Domain	ID-B120	Treatments and Procedures	2.0		Treatments and Procedures	Direct	Low	Needs validation	Treatment and procedure product families likely exist but require validation and sensitivity review.
+UIT-P-0075	Intent Domain	ID-B200	Medication and Ongoing Care	2.0		Medication and Ongoing Care	Direct	Low	Needs validation	Medication and care services likely map directly but require validation and sensitivity review.
+UIT-P-0076	Intent Domain	ID-B210	Prescriptions	2.0		Prescriptions	Direct	Low	Needs validation	Prescription-related products likely map directly but require validation and sensitivity review.
+UIT-P-0077	Intent Domain	ID-B220	Therapy and Ongoing Support	2.0		Therapy and Ongoing Support	Adjacent	Low	Needs validation	Therapy and support combine service families with lifecycle state.
+UIT-P-0078	Intent Domain	ID-C000	Wellness and Beauty	2.0		Wellness and Beauty	Direct	Medium	Needs validation	Wellness and beauty likely align directly with product families.
+UIT-P-0079	Intent Domain	ID-C100	Fitness and Nutrition	2.0		Fitness and Nutrition	Direct	Medium	Needs validation	Fitness and nutrition product families are plausible direct mappings.
+UIT-P-0080	Intent Domain	ID-C110	Fitness Programs	2.0		Fitness Programs	Adjacent	Medium	Needs validation	Programs are service-offer concepts that may map directly once validated.
+UIT-P-0081	Intent Domain	ID-C120	Diet and Supplements	2.0		Diet and Supplements	Direct	Medium	Needs validation	Supplement products likely map directly to ad product families.
+UIT-P-0082	Intent Domain	ID-C200	Beauty and Personal Care	2.0		Beauty and Personal Care	Direct	Medium	Needs validation	Beauty and personal care should map directly to product families.
+UIT-P-0083	Intent Domain	ID-C210	Skincare and Cosmetics	2.0		Skincare and Cosmetics	Direct	Medium	Needs validation	Skincare and cosmetics should map directly to product families.
+UIT-P-0084	Intent Domain	ID-C220	Grooming and Services	2.0		Grooming and Services	Adjacent	Medium	Needs validation	Grooming includes both products and services, so exact mapping depends on the offering.
+UIT-P-0085	Intent Domain	ID-D000	Careers	2.0		Careers and Employment Services	Adjacent	Medium	Needs validation	Career domains are service-offer concepts that may map to education, recruiting, or professional-service families.
+UIT-P-0086	Intent Domain	ID-D100	Job Search and Applications	2.0		Job Search and Recruiting	Adjacent	Medium	Needs validation	Job search and application intent is more service-platform oriented than classical product families.
+UIT-P-0087	Intent Domain	ID-D110	Job Discovery	2.0		Job Discovery Services	Adjacent	Medium	Needs validation	Discovery-oriented career services may exist but require validation.
+UIT-P-0088	Intent Domain	ID-D120	Applications and Interviews	2.0		Application and Interview Services	Adjacent	Low	Needs validation	Applications and interviews are process-oriented states more than ad product families.
+UIT-P-0089	Intent Domain	ID-D200	Professional Growth	2.0		Professional Development Services	Adjacent	Medium	Needs validation	Professional growth may map to training or education-service products.
+UIT-P-0090	Intent Domain	ID-D210	Resume and Skills	2.0		Resume and Skills Services	Adjacent	Medium	Needs validation	Resume and skill services are service-platform concepts.
+UIT-P-0091	Intent Domain	ID-D220	Career Change	2.0		Career Change Services	Adjacent	Low	Needs validation	Career-change states are not obviously ad product taxonomies without a specific offer type.
+UIT-P-0092	Intent Domain	ID-E000	Education	2.0		Education	Direct	Low	Needs validation	Education products and services likely map directly, but the exact node should be validated.
+UIT-P-0093	Intent Domain	ID-E100	Academic Programs	2.0		Academic Programs	Direct	Low	Needs validation	Academic-program offers likely map directly once exact nodes are validated.
+UIT-P-0094	Intent Domain	ID-E110	Schools and Degrees	2.0		Schools and Degrees	Direct	Low	Needs validation	School and degree offers likely map directly once exact nodes are validated.
+UIT-P-0095	Intent Domain	ID-E120	Certifications and Courses	2.0		Certifications and Courses	Direct	Low	Needs validation	Courses and certification offers likely map directly once validated.
+UIT-P-0096	Intent Domain	ID-E200	Admissions and Funding	2.0		Admissions and Funding Services	Adjacent	Low	Needs validation	Admissions and funding are process-heavy education-service concepts.
+UIT-P-0097	Intent Domain	ID-E210	Applications	2.0		Applications	Adjacent	Low	Needs validation	Application states are more process than product.
+UIT-P-0098	Intent Domain	ID-E220	Tuition and Aid	2.0		Tuition and Aid	Adjacent	Low	Needs validation	Aid and tuition are finance-education process concepts more than simple ad product nodes.
+UIT-P-0099	Intent Domain	ID-F000	Parenting and Family	2.0		Parenting and Family Products and Services	Adjacent	Medium	Needs validation	Family products and services may map to multiple retail and service families.
+UIT-P-0100	Intent Domain	ID-F100	Family Products and Services	2.0		Family Products and Services	Adjacent	Medium	Needs validation	This domain spans multiple product and service families.
+UIT-P-0101	Intent Domain	ID-F110	Baby and Child Products	2.0		Baby and Child Products	Direct	Medium	Needs validation	Baby and child product families likely exist directly.
+UIT-P-0102	Intent Domain	ID-F120	Family Activities and Services	2.0		Family Activities and Services	Adjacent	Medium	Needs validation	Family services and activities blend service offers with topic states.
+UIT-P-0103	Intent Domain	ID-F200	Parenting Guidance and Support	2.0		Parenting Guidance and Support Services	Adjacent	Low	Needs validation	Support and guidance are more service-state concepts than ad product families.
+UIT-P-0104	Intent Domain	ID-F210	Parenting Advice	2.0		Parenting Advice Services	Adjacent	Low	Needs validation	Advice-oriented states are not clean ad product categories.
+UIT-P-0105	Intent Domain	ID-F220	Family Support Solutions	2.0		Family Support Solutions	Adjacent	Low	Needs validation	Support solutions are service-oriented and may need multiple product families.
+UIT-P-0106	Intent Domain	ID-G000	Home and Garden	2.0		Home and Garden	Direct	Medium	Needs validation	Home and garden should map directly to product families.
+UIT-P-0107	Intent Domain	ID-G100	Furnishing and Decor	2.0		Furnishings and Decor	Direct	Medium	Needs validation	Furnishings and decor should map directly to product families.
+UIT-P-0108	Intent Domain	ID-G110	Furniture and Decor	2.0		Furniture and Decor	Direct	Medium	Needs validation	Furniture and decor should map directly to product families.
+UIT-P-0109	Intent Domain	ID-G120	Appliances and Fixtures	2.0		Appliances and Fixtures	Direct	Medium	Needs validation	Appliances and fixtures should map directly to product families.
+UIT-P-0110	Intent Domain	ID-G200	Repair Renovation and Services	2.0		Repair Renovation and Services	Adjacent	Medium	Needs validation	Repair and renovation blend products with contractor services.
+UIT-P-0111	Intent Domain	ID-G210	Repair and Maintenance	2.0		Repair and Maintenance Services	Adjacent	Medium	Needs validation	Maintenance services are service-oriented more than pure product families.
+UIT-P-0112	Intent Domain	ID-G220	Remodel and Improvement	2.0		Remodel and Improvement	Adjacent	Medium	Needs validation	Improvement offers span products and contractor services.
+UIT-P-0113	Intent Domain	ID-H000	Professional Services	2.0		Professional Services	Direct	Low	Needs validation	Professional services likely map directly to service families, but exact nodes should be validated.
+UIT-P-0114	Intent Domain	ID-H100	Home and Local Services	2.0		Home and Local Services	Direct	Low	Needs validation	Home and local services likely map directly to service families.
+UIT-P-0115	Intent Domain	ID-H110	Contractors and Repair Services	2.0		Contractors and Repair Services	Direct	Low	Needs validation	Contractor and repair services likely map directly to service families.
+UIT-P-0116	Intent Domain	ID-H120	Cleaning and Personal Services	2.0		Cleaning and Personal Services	Direct	Low	Needs validation	Cleaning and personal services likely map directly to service families.
+UIT-P-0117	Intent Domain	ID-H200	Advisory and Consulting Services	2.0		Advisory and Consulting Services	Direct	Low	Needs validation	Consulting and advisory services likely map directly to professional-service families.
+UIT-P-0118	Intent Domain	ID-H210	Financial Advisors and Tax Services	2.0		Financial Advisor and Tax Services	Direct	Low	Needs validation	Financial advisory and tax services likely map directly to service families.
+UIT-P-0119	Intent Domain	ID-H220	Business and Strategy Consulting	2.0		Business and Strategy Consulting	Direct	Low	Needs validation	Consulting service families likely exist directly.
+UIT-P-0120	Intent Domain	ID-I000	Telecom and Utilities	2.0		Telecom and Utilities	Direct	Low	Needs validation	Telecom and utility service families likely exist directly.
+UIT-P-0121	Intent Domain	ID-I100	Connectivity Services	2.0		Connectivity Services	Direct	Low	Needs validation	Connectivity services likely map directly to telecom product families.
+UIT-P-0122	Intent Domain	ID-I110	Mobile Plans	2.0		Mobile Plans	Direct	Low	Needs validation	Mobile plans should map directly to telecom-service families.
+UIT-P-0123	Intent Domain	ID-I120	Internet and Bundles	2.0		Internet and Bundles	Direct	Low	Needs validation	Internet bundles should map directly to telecom-service families.
+UIT-P-0124	Intent Domain	ID-I200	Utility Services	2.0		Utility Services	Direct	Low	Needs validation	Utility services likely map directly once exact nodes are validated.
+UIT-P-0125	Intent Domain	ID-I210	Energy Providers	2.0		Energy Providers	Direct	Low	Needs validation	Energy-provider service families likely exist directly.
+UIT-P-0126	Intent Domain	ID-I220	Utility Account Services	2.0		Utility Account Services	Adjacent	Low	Needs validation	Account-service states are more lifecycle-oriented than simple ad product categories.
+UIT-P-0127	Intent Domain	ID-J000	Business and B2B Solutions	2.0		Business Products and Services	Direct	Low	Needs validation	Business solution families likely exist directly, though exact nodes should be validated.
+UIT-P-0128	Intent Domain	ID-J100	Software and SaaS	2.0		Software and SaaS	Direct	Low	Needs validation	Software and SaaS should map directly to business-software families once validated.
+UIT-P-0129	Intent Domain	ID-J110	CRM Sales and Marketing	2.0		CRM Sales and Marketing Software	Direct	Low	Needs validation	CRM and sales software likely map directly to business-software families once validated.
+UIT-P-0130	Intent Domain	ID-J120	Finance HR and Operations Software	2.0		Finance HR and Operations Software	Direct	Low	Needs validation	Operational business software likely maps directly to ad product families.
+UIT-P-0131	Intent Domain	ID-J200	Infrastructure and Data	2.0		Infrastructure and Data Services	Direct	Low	Needs validation	Infrastructure and data offers likely map directly once exact nodes are validated.
+UIT-P-0132	Intent Domain	ID-J210	Cloud and Security	2.0		Cloud and Security	Direct	Low	Needs validation	Cloud and security product families likely exist directly.
+UIT-P-0133	Intent Domain	ID-J220	Data AI and Analytics	2.0		Data AI and Analytics	Direct	Low	Needs validation	Data, AI, and analytics product families likely exist directly.
+UIT-P-0134	Intent Domain	ID-K000	Nonprofit and Causes	2.0		Nonprofit and Cause Organizations	Adjacent	Low	Needs validation	Cause domains are organizational and participatory, not always clear ad product families.
+UIT-P-0135	Intent Domain	ID-K100	Cause Discovery	2.0		Cause Discovery	Adjacent	Low	Needs validation	Cause-discovery states are not straightforward ad product categories.
+UIT-P-0136	Intent Domain	ID-K110	Charities and Donations	2.0		Charities and Donations	Adjacent	Low	Needs validation	Charities and donation concepts may map to nonprofit-service offers, but require validation.
+UIT-P-0137	Intent Domain	ID-K120	Volunteer Opportunities	2.0		Volunteer Opportunities	Adjacent	Low	Needs validation	Volunteer opportunities are participatory states rather than product families.
+UIT-P-0138	Intent Domain	ID-K200	Cause Participation	2.0		Cause Participation	Adjacent	Low	Needs validation	Participation states are not straightforward ad product categories.
+UIT-P-0139	Intent Domain	ID-K210	Donations	2.0		Donations	Adjacent	Low	Needs validation	Donation behavior is not a simple ad product family.
+UIT-P-0140	Intent Domain	ID-K220	Volunteer Support	2.0		Volunteer Support	Adjacent	Low	Needs validation	Volunteer support is operational and participatory rather than a stable product family.
+UIT-P-0141	Intent Domain	ID-L000	Legal and Compliance	2.0		Legal and Compliance Services	Direct	Low	Needs validation	Legal and compliance offers likely map directly to service families once validated.
+UIT-P-0142	Intent Domain	ID-L100	Personal Legal Services	2.0		Personal Legal Services	Direct	Low	Needs validation	Personal legal services likely map directly to service families.
+UIT-P-0143	Intent Domain	ID-L110	Family and Civil Matters	2.0		Family and Civil Legal Services	Direct	Low	Needs validation	Family and civil matters likely map directly to legal service families.
+UIT-P-0144	Intent Domain	ID-L120	Injury and Claims	2.0		Injury and Claims Services	Adjacent	Low	Needs validation	Claims combine legal and insurance states, making mapping more complex.
+UIT-P-0145	Intent Domain	ID-L200	Business Legal and Compliance	2.0		Business Legal and Compliance Services	Direct	Low	Needs validation	Business legal and compliance likely map directly to service families.
+UIT-P-0146	Intent Domain	ID-L210	Contracts and Corporate Matters	2.0		Contracts and Corporate Matters	Direct	Low	Needs validation	Corporate legal services likely map directly to service families.
+UIT-P-0147	Intent Domain	ID-L220	Privacy Risk and Compliance	2.0		Privacy Risk and Compliance Services	Direct	Low	Needs validation	Compliance-oriented services likely map directly to service families.
+UIT-P-0148	Intent Domain	ID-M000	Community and Social	2.0		Community and Social Services	Adjacent	Low	Needs validation	Community and social states are not straightforward ad product families.
+UIT-P-0149	Intent Domain	ID-M100	Local Community	2.0		Local Community Services	Adjacent	Low	Needs validation	Local community states are not straightforward ad product families.
+UIT-P-0150	Intent Domain	ID-M110	Local Groups	2.0		Local Groups	Adjacent	Low	Needs validation	Local groups are participatory entities more than product families.
+UIT-P-0151	Intent Domain	ID-M120	Events and Meetups	2.0		Events and Meetups	Adjacent	Low	Needs validation	Events may map to ticketing or community offerings, but not cleanly at this level.
+UIT-P-0152	Intent Domain	ID-M200	Online Communities	2.0		Online Community Services	Adjacent	Low	Needs validation	Online communities are participatory entities more than product families.
+UIT-P-0153	Intent Domain	ID-M210	Interest Communities	2.0		Interest Communities	Adjacent	Low	Needs validation	Interest communities are affinity constructs rather than product families.
+UIT-P-0154	Intent Domain	ID-M220	Support Communities	2.0		Support Communities	Adjacent	Low	Needs validation	Support communities are stateful and participatory rather than ad product categories.
+UIT-P-0155	Intent Pattern	IP-6000	Comparison Intent	2.0			No direct equivalent	High	Proposed	Ad product taxonomy labels what is being advertised, not whether the user is comparing.
+UIT-P-0156	Intent Pattern	IP-2310	Demo Request	2.0			No direct equivalent	High	Proposed	Demo-request behavior is a user-side action pattern, not an ad product classification.
+UIT-P-0157	Intent Pattern	IP-C220	Claim Complaint or Issue Resolution	2.0			No direct equivalent	High	Proposed	Support-resolution state is not equivalent to the advertised product or service family.
+UIT-P-0158	Intent Modifier	IM-5000	Urgency	2.0			No direct equivalent	High	Proposed	Urgency modifies the likelihood or timing of action; it is not an ad product category.
+UIT-P-0159	Intent Modifier	IM-6000	Budget Conscious	2.0			No direct equivalent	High	Proposed	Price sensitivity does not map directly to product family.
+UIT-P-0160	Example Combination	IP-3110|ID-3000	Flight Booking|Travel	2.0	1537	Air Travel	Direct	High	Proposed	A clean example of direct overlap between domain and advertised travel product.
+UIT-P-0161	Example Combination	IP-5220|ID-A000|IM-5000|IM-6000	Loan or Financing Quote|Real Estate|Urgency|Budget Conscious	2.0	1482	Real Estate	Adjacent	Low	Needs validation	The domain overlap is clear, but financing-specific candidate nodes should be validated against the current ad product hierarchy.
+UIT-P-0162	Example Combination	IP-5210|ID-9000	Insurance Quote|Insurance	2.0		Insurance products and services	Adjacent	Low	Needs validation	A likely direct product family exists, but the exact current 2.0 node should be validated before treating as canonical.
+UIT-P-0163	Example Combination	IP-2310|ID-J000|IM-4000|IM-3000	Demo Request|Business and B2B Solutions|Vendor Focused|Brand Focused	2.0		Business software or business services	Adjacent	Low	Needs validation	Useful as a commercial mapping concept, but the exact 2.0 candidate node needs explicit validation.

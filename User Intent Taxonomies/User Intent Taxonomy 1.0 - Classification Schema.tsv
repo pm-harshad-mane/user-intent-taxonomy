@@ -1,4 +1,5 @@
 page_or_entity_id
+input_text
 primary_intent_pattern_id
 primary_intent_pattern_name
 secondary_intent_pattern_ids
